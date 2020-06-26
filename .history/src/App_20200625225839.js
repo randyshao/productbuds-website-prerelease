@@ -6,8 +6,9 @@ function App() {
   return (
     <div className="App">
       <Layout>
-        <h1>Product Buds <span>&#127811;</span></h1>
+      <h1>Product Buds <span>&#127811;</span></h1>
       </Layout>
+      
     </div>
   );
 }

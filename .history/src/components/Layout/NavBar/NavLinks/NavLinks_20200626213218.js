@@ -5,8 +5,8 @@ import NavItem from './NavItem';
 const NavLinks = () => {
     return (
         <ul className='NavLinks'>
-            <NavItem link='/'>About</NavItem>
-            <NavItem link='/'>Join Us</NavItem>
+            <NavItem />
+            <NavItem />
         </ul>
     )
 };

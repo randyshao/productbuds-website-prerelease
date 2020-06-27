@@ -8,7 +8,6 @@ const Layout = (props) => {
     return (
         <Auxiliary>
             <NavBar />
-            <SideDrawer />
             <main>
                 {props.children}
             </main>

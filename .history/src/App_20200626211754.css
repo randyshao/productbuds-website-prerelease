@@ -32,7 +32,7 @@ body {
 
 .Logo {
   padding: 8px;
-  height: 100%;
+  height: 80%;
   box-sizing: border-box;
 }
 
@@ -65,38 +65,11 @@ body {
   border-bottom: 4px solid transparent;
   box-sizing: border-box;
   display: block;
+  align-items: center;
 }
 
 .NavItem a:hover,
 .NavItem a:active
 .NavItem a.active {
   border-bottom: 4px solid white;
-}
-
-.SideDrawer {
-  position: fixed;
-  width: 380px;
-  max-width: 80%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  z-index: 200;
-  background-color: #80DE5E;
-  padding: 32px 16px;
-  box-sizing: border-box;
-  transition: transform 0.3s ease-out;
-}
-
-@media (min-width: 560px) {
-  .SideDrawer {
-    display: none;
-  }
-}
-
-.Open {
-  transform: translateX(0);
-}
-
-.Close {
-  transform: translateX(-100%);
 }

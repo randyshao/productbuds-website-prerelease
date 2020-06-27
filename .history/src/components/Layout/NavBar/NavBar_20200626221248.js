@@ -7,7 +7,9 @@ const NavBar = (props) => {
     return (
         <header className="Navbar">
             <div>SIDEDRAWER TOGGLE</div>
-            <Logo height='80%'/>
+            <div>
+                <Logo />
+            </div>
             <nav>
                 <NavLinks />
             </nav>

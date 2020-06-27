@@ -56,19 +56,3 @@ body {
   height: 100%;
   align-items: center;
 }
-
-.NavItem a {
-  color: white;
-  text-decoration: none;
-  height: 100%;
-  padding: 16px 10px;
-  border-bottom: 4px solid transparent;
-  box-sizing: border-box;
-  display: block;
-}
-
-.NavItem a:hover,
-.NavItem a:active
-.NavItem a.active {
-  border-bottom: 4px solid white;
-}

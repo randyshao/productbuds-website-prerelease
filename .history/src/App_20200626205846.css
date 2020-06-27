@@ -66,9 +66,3 @@ body {
   box-sizing: border-box;
   display: block;
 }
-
-.NavItem a:hover,
-.NavItem a:active
-.NavItem a.active {
-  border-bottom: 4px solid white;
-}

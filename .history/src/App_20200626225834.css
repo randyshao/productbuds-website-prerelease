@@ -17,7 +17,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #EAF8D3;
+  background-color: #80DE5E;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -59,7 +59,7 @@ body {
 }
 
 .NavItem a {
-  color: #307F1A;
+  color: white;
   text-decoration: none;
   width: 100%;
   box-sizing: border-box;
@@ -69,7 +69,7 @@ body {
 .NavItem a:hover,
 .NavItem a:active
 .NavItem a.active {
-  border-bottom: 4px solid #307F1A;
+  border-bottom: 4px solid white;
 }
 
 .SideDrawer {
@@ -80,13 +80,13 @@ body {
   left: 0;
   top: 0;
   z-index: 200;
-  background-color: #EAF8D3;
+  background-color: #80DE5E;
   padding: 32px 16px;
   box-sizing: border-box;
   transition: transform 0.3s ease-out;
 }
 
-@media (max-width: 559px) {
+@media (min-width: 560px) {
   .DesktopOnly {
     display: none;
   }
@@ -113,6 +113,7 @@ body {
   }
   
   .NavItem a {
+    color: white;
     height: 100%;
     padding: 16px 10px;
     border-bottom: 4px solid transparent;
@@ -121,7 +122,7 @@ body {
   .NavItem a:hover,
   .NavItem a:active
   .NavItem a.active {
-    border-bottom: 4px solid #307F1A;
+    border-bottom: 4px solid white;
   }
 }
 

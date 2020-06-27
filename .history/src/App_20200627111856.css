@@ -11,10 +11,6 @@ body {
   text-align: center;
 }
 
-.Content {
-  margin-top: 70px;
-}
-
 .Navbar {
   height: 70px;
   width: 100%;
@@ -22,6 +18,9 @@ body {
   top: 0;
   left: 0;
   background-color: #EAF8D3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 0 20px;
   box-sizing: border-box;
   z-index: 90;
@@ -31,28 +30,21 @@ body {
   height: 100%;
 }
 
-.Container {
-  display: flex;
-  justify-content: space-between;
-}
-
 .Logo {
   padding: 8px;
+  height: 100%;
   box-sizing: border-box;
-}
-
-.Logo img {
-  height: 40px;
-}
-
-.LogoContainer {
+  margin-bottom: 32px;
   display: flex;
   align-items: center;
 }
 
-.LogoContainer h1 {
-  font-size: 20px;
-  color: #307F1A;
+.Logo img {
+  height: 100%;
+}
+
+.Logo h1 {
+  margin-left: 20px;
 }
 
 .NavLinks {
@@ -184,6 +176,5 @@ body {
 @media (min-width: 1920px) {
   .Container {
     max-width: 1920px;
-    margin: 0 auto;
   }
 }

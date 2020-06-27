@@ -8,15 +8,13 @@ const NavBar = (props) => {
     return (
         <header className="Navbar">
             <div className="Container"> 
-                <div className='LogoContainer'>
-                    <Logo />
-                    <h1>Product Buds</h1>
-                </div>
-                <nav className='DesktopOnly'>
-                    <NavLinks />
-                </nav>
-                <DrawerToggle clicked={props.drawerToggleClicked}/>
+            <DrawerToggle clicked={props.drawerToggleClicked}/>
+            <Logo height='80%'/>
+            <nav className='DesktopOnly'>
+                <NavLinks />
+            </nav>
             </div>
+            
         </header>
     )
 };

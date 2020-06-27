@@ -20,15 +20,13 @@ const Layout = (props) => {
 
     return (
         <Auxiliary>
-            
+            <div className='Container'>
                 <NavBar drawerToggleClicked={sideDrawerToggleHandler} />
                 <SideDrawer open={showSideDrawer} closed={sideDrawerHandler}/>
                 <main className='Content'>
-                    <div className='Container'>
-                        {props.children}
-                    </div>
+                    {props.children}
                 </main>
-            
+            </div>
             
         </Auxiliary>
     )

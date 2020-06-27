@@ -33,7 +33,8 @@ body {
 
 .Container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
 }
 
 .Logo {
@@ -181,9 +182,3 @@ body {
   }
 }
 
-@media (min-width: 1920px) {
-  .Container {
-    max-width: 1920px;
-    margin: 0 auto;
-  }
-}

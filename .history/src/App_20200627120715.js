@@ -7,7 +7,6 @@ function App() {
   return (
     <div className="App">
       <Layout>
-        <TitleBanner />
       </Layout>
     </div>
   );

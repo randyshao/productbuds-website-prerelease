@@ -2,9 +2,7 @@ import React, { useState } from 'react';
 import Auxiliary from '../../hoc/Auxiliary';
 import NavBar from './NavBar/NavBar';
 import Logo from '../Logo/Logo';
-import SideDrawer from './NavBar/SideDrawer/SideDrawer';
-import TitleBanner from './TitleBanner/TitleBanner';
-import '../../App.css'
+import SideDrawer from './NavBar/SideDrawer/SideDrawer'
 
 const Layout = (props) => {
 
@@ -20,15 +18,13 @@ const Layout = (props) => {
 
     return (
         <Auxiliary>
-            
-                <NavBar drawerToggleClicked={sideDrawerToggleHandler} />
-                <SideDrawer open={showSideDrawer} closed={sideDrawerHandler}/>
-                <main className='Content'>
-                    <div className='Container'>
-                        {props.children}
-                    </div>
-                </main>
-            
+            <div className='Container'>
+            <NavBar drawerToggleClicked={sideDrawerToggleHandler} />
+            <SideDrawer open={showSideDrawer} closed={sideDrawerHandler}/>
+            <main>
+                {props.children}
+            </main>
+            </div>
             
         </Auxiliary>
     )

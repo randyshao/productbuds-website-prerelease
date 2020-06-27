@@ -20,15 +20,14 @@ const Layout = (props) => {
 
     return (
         <Auxiliary>
-            
-                <NavBar drawerToggleClicked={sideDrawerToggleHandler} />
-                <SideDrawer open={showSideDrawer} closed={sideDrawerHandler}/>
-                <main className='Content'>
-                    <div className='Container'>
-                        {props.children}
-                    </div>
-                </main>
-            
+            <div className='Container'>
+            <NavBar drawerToggleClicked={sideDrawerToggleHandler} />
+            <SideDrawer open={showSideDrawer} closed={sideDrawerHandler}/>
+            <main>
+                <TitleBanner />
+                {props.children}
+            </main>
+            </div>
             
         </Auxiliary>
     )

@@ -7,7 +7,7 @@ import DrawerToggle from './SideDrawer/DrawerToggle'
 const NavBar = (props) => {
     return (
         <header className="Navbar">
-            <div className="Container"> 
+            <div> 
                 <div className='LogoContainer'>
                     <Logo />
                     <h1>Product Buds</h1>

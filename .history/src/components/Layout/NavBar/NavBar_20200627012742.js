@@ -7,15 +7,12 @@ import DrawerToggle from './SideDrawer/DrawerToggle'
 const NavBar = (props) => {
     return (
         <header className="Navbar">
-            <div className="Container"> 
-                <div className='LogoContainer'>
-                    <Logo />
-                    <h1>Product Buds</h1>
-                </div>
+            <div className="Container">
+                <DrawerToggle clicked={props.drawerToggleClicked}/>
+                <Logo height='80%'/>
                 <nav className='DesktopOnly'>
                     <NavLinks />
                 </nav>
-                <DrawerToggle clicked={props.drawerToggleClicked}/>
             </div>
         </header>
     )

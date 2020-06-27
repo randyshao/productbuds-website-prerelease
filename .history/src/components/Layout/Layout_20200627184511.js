@@ -24,11 +24,9 @@ const Layout = (props) => {
                 <NavBar drawerToggleClicked={sideDrawerToggleHandler} />
                 <SideDrawer open={showSideDrawer} closed={sideDrawerHandler}/>
                 <main className='Content'>
-                    <div className='Container'>
-                        {props.children}
-                    </div>
+                    {props.children}
                 </main>
-            
+
             
         </Auxiliary>
     )

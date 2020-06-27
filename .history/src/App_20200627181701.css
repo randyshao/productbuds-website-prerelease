@@ -22,6 +22,9 @@ body {
   top: 0;
   left: 0;
   background-color: #EAF8D3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 0 20px;
   box-sizing: border-box;
   z-index: 90;
@@ -29,11 +32,6 @@ body {
 
 .Navbar nav {
   height: 100%;
-}
-
-.Container {
-  display: flex;
-  justify-content: space-between;
 }
 
 .Logo {
@@ -184,6 +182,5 @@ body {
 @media (min-width: 1920px) {
   .Container {
     max-width: 1920px;
-    margin: 0 auto;
   }
 }

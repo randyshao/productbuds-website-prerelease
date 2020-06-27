@@ -25,15 +25,12 @@ body {
   padding: 0 20px;
   box-sizing: border-box;
   z-index: 90;
+  display: flex;
+  justify-content: space-between;
 }
 
 .Navbar nav {
   height: 100%;
-}
-
-.Container {
-  display: flex;
-  justify-content: space-between;
 }
 
 .Logo {

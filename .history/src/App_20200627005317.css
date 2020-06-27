@@ -144,21 +144,21 @@ body {
 }
 
 .DrawerToggle {
-  width: 30px;
+  width: 40px;
   height: 100%;
   display: flex;
   flex-flow: column;
   justify-content: space-around;
   align-items: center;
-  padding: 21px 0;
+  padding: 10px 0;
   box-sizing: border-box;
   cursor: pointer;
 }
 
 .DrawerToggle div {
   width: 90%;
-  height: 4px;
-  background-color: #307F1A;
+  height: 3px;
+  background-color: white;
 }
 
 @media (min-width: 560px) {

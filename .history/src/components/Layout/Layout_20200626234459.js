@@ -8,18 +8,14 @@ const Layout = (props) => {
 
     const [showSideDrawer, setShowSideDrawer] = useState(false)
 
-    const sideDrawerHandler = () => {
-        setShowSideDrawer(false);
-    }
-
-    const sideDrawerToggleHandler = () => {
-        setShowSideDrawer(!showSideDrawer);
+    sideDrawerHandler = () => {
+        setShowSideDrawer(true)
     }
 
     return (
         <Auxiliary>
-            <NavBar drawerToggleClicked={sideDrawerToggleHandler} />
-            <SideDrawer open={showSideDrawer} closed={sideDrawerHandler}/>
+            <NavBar />
+            <SideDrawer closed={sideDrawerHandler}/>
             <main>
                 {props.children}
             </main>

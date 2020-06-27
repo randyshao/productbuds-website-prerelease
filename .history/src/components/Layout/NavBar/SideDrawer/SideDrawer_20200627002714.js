@@ -3,7 +3,6 @@ import Logo from '../../../Logo/Logo';
 import NavLinks from '../NavLinks/NavLinks';
 import '../../../../App.css';
 import Backdrop from '../../../UI/Backdrop';
-import Auxiliary from '../../../../hoc/Auxiliary'
 
 const SideDrawer = (props) => {
 
@@ -14,16 +13,12 @@ const SideDrawer = (props) => {
     }
 
     return (
-        <Auxiliary>
-            <Backdrop show={props.open} clicked={props.closed}/>
-            <div className={attachedClasses.join(' ')}>
-                <Logo height='11%' show={props.open} clicked={props.closed}/>
-                <nav>
-                    <NavLinks />
-                </nav>
-            </div>
-        </Auxiliary>
-        
+        <div className={attachedClasses.join(' ')}>
+            <Logo height='11%' show={props.open} clicked={props.closed}/>
+            <nav>
+                <NavLinks />
+            </nav>
+        </div>
     )
 };
 

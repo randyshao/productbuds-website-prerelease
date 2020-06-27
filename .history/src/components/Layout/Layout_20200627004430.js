@@ -6,7 +6,7 @@ import SideDrawer from './NavBar/SideDrawer/SideDrawer'
 
 const Layout = (props) => {
 
-    const [showSideDrawer, setShowSideDrawer] = useState(false)
+    const [showSideDrawer, setShowSideDrawer] = useState(true)
 
     const sideDrawerHandler = () => {
         setShowSideDrawer(false);

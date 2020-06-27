@@ -140,29 +140,5 @@ body {
   z-index: 100;
   left: 0;
   top: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-.DrawerToggle {
-  width: 30px;
-  height: 100%;
-  display: flex;
-  flex-flow: column;
-  justify-content: space-around;
-  align-items: center;
-  padding: 21px 0;
-  box-sizing: border-box;
-  cursor: pointer;
-}
-
-.DrawerToggle div {
-  width: 90%;
-  height: 4px;
-  background-color: #307F1A;
-}
-
-@media (min-width: 560px) {
-  .DrawerToggle {
-      display: none;
-  }
+  background-color: rgba(0, 0, 0, 0.5)
 }

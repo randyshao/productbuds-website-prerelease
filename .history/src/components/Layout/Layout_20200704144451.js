@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Auxiliary from '../../hoc/Auxiliary';
 import NavBar from './NavBar/NavBar';
+import Logo from '../Logo/Logo';
 import SideDrawer from './NavBar/SideDrawer/SideDrawer';
 import '../../App.css'
 

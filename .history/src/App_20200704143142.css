@@ -207,7 +207,7 @@ a {
 
 .BannerMargin {
   margin: 20px;
-  padding-top: 50px;
+  padding-top: 40px;
 }
 
 .BannerImage {
@@ -217,13 +217,13 @@ a {
 }
 
 .PaddingBottom {
-  padding-bottom: 120px;
+  padding-bottom: 110px;
 }
 
 /******Intro******/
 
 .CompanyIntro {
-  margin: 50px 0;
+  margin-top: 50px;
 }
 
 .Arrow {
@@ -234,8 +234,4 @@ a {
 
 .Inline {
   display: inline;
-}
-
-.MarginTop {
-  margin: 40px;
 }

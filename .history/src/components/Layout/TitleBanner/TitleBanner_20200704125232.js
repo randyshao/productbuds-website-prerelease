@@ -1,6 +1,6 @@
 import React from 'react';
 import PBLogo from '../../../assets/images/flat-logo-transparent.png';
-import '../../../App.css';
+import '../../../App.css'
 
 const TitleBanner = () => {
     return (

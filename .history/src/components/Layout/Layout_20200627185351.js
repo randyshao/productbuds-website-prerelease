@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import Auxiliary from '../../hoc/Auxiliary';
 import NavBar from './NavBar/NavBar';
+import Logo from '../Logo/Logo';
 import SideDrawer from './NavBar/SideDrawer/SideDrawer';
+import TitleBanner from './TitleBanner/TitleBanner';
 import '../../App.css'
 
 const Layout = (props) => {
@@ -22,7 +24,7 @@ const Layout = (props) => {
                 <NavBar drawerToggleClicked={sideDrawerToggleHandler} />
                 <SideDrawer open={showSideDrawer} closed={sideDrawerHandler}/>
                 <main className='Content'>
-                    {props.children}
+                        {props.children}
                 </main>
             
             

@@ -21,11 +21,6 @@ body {
   justify-content: space-between;
 }
 
-a {
-  text-decoration: none;
-  color: #1B4C0F;
-}
-
 @media (min-width: 1920px) {
   .Container {
     max-width: 1920px;
@@ -207,7 +202,7 @@ a {
 
 .BannerMargin {
   margin: 20px;
-  padding-top: 50px;
+  padding-top: 40px;
 }
 
 .BannerImage {
@@ -217,25 +212,12 @@ a {
 }
 
 .PaddingBottom {
-  padding-bottom: 120px;
+  padding-bottom: 110px;
 }
 
 /******Intro******/
 
-.CompanyIntro {
-  margin: 50px 0;
-}
-
 .Arrow {
-  width: 18px;
+  width: 20px;
   display: inline;
-  padding-left: 25px;
-}
-
-.Inline {
-  display: inline;
-}
-
-.MarginTop {
-  margin: 40px;
 }

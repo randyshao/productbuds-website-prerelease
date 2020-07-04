@@ -5,7 +5,6 @@ body {
   font-family: 'Nunito', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #1B4C0F;
 }
 
 .App {
@@ -15,25 +14,6 @@ body {
 .Content {
   margin-top: 70px;
 }
-
-.Container {
-  display: flex;
-  justify-content: space-between;
-}
-
-a {
-  text-decoration: none;
-  color: #1B4C0F;
-}
-
-@media (min-width: 1920px) {
-  .Container {
-    max-width: 1920px;
-    margin: 0 auto;
-  }
-}
-
-/******NavBar******/
 
 .Navbar {
   height: 70px;
@@ -49,6 +29,30 @@ a {
 
 .Navbar nav {
   height: 100%;
+}
+
+.Container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Logo {
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.Logo img {
+  height: 40px;
+}
+
+.LogoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.LogoContainer h1 {
+  font-size: 20px;
+  color: #307F1A;
 }
 
 .NavLinks {
@@ -96,42 +100,6 @@ a {
   transition: transform 0.3s ease-out;
 }
 
-.Open {
-  transform: translateX(0);
-}
-
-.Close {
-  transform: translateX(-100%);
-}
-
-.Backdrop {
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  z-index: 100;
-  left: 0;
-  top: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-.DrawerToggle {
-  width: 30px;
-  height: 100%;
-  display: flex;
-  flex-flow: column;
-  justify-content: space-around;
-  align-items: center;
-  padding: 21px 0;
-  box-sizing: border-box;
-  cursor: pointer;
-}
-
-.DrawerToggle div {
-  width: 90%;
-  height: 4px;
-  background-color: #307F1A;
-}
-
 @media (max-width: 559px) {
   .DesktopOnly {
     display: none;
@@ -171,71 +139,60 @@ a {
   }
 }
 
-@media (min-width: 560px) {
-  .DrawerToggle {
-      display: none;
-  }
+.Open {
+  transform: translateX(0);
 }
 
-/******Logo******/
-
-.Logo {
-  padding: 8px;
-  box-sizing: border-box;
+.Close {
+  transform: translateX(-100%);
 }
 
-.Logo img {
-  height: 40px;
+.Backdrop {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
-.LogoContainer {
+.DrawerToggle {
+  width: 30px;
+  height: 100%;
   display: flex;
+  flex-flow: column;
+  justify-content: space-around;
   align-items: center;
+  padding: 21px 0;
+  box-sizing: border-box;
+  cursor: pointer;
 }
 
-.LogoContainer h1 {
-  font-size: 20px;
-  color: #307F1A;
+.DrawerToggle div {
+  width: 90%;
+  height: 4px;
+  background-color: #307F1A;
 }
-
-/******Banner******/
 
 .TitleBanner {
   background-color: #EAF8D3;
   width: 100%;
 }
 
+@media (min-width: 560px) {
+  .DrawerToggle {
+      display: none;
+  }
+}
+
+@media (min-width: 1920px) {
+  .Container {
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+}
+
 .BannerMargin {
-  margin: 20px;
-  padding-top: 50px;
-}
-
-.BannerImage {
-  max-height: 350px;
-  max-width: 100%;
-  box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.3);
-}
-
-.PaddingBottom {
-  padding-bottom: 120px;
-}
-
-/******Intro******/
-
-.CompanyIntro {
-  margin: 50px 0;
-}
-
-.Arrow {
-  width: 18px;
-  display: inline;
-  padding-left: 25px;
-}
-
-.Inline {
-  display: inline;
-}
-
-.MarginTop {
-  margin: 40px;
+  margin: 10px;
 }

@@ -5,7 +5,6 @@ body {
   font-family: 'Nunito', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #1B4C0F;
 }
 
 .App {
@@ -14,23 +13,6 @@ body {
 
 .Content {
   margin-top: 70px;
-}
-
-.Container {
-  display: flex;
-  justify-content: space-between;
-}
-
-a {
-  text-decoration: none;
-  color: #1B4C0F;
-}
-
-@media (min-width: 1920px) {
-  .Container {
-    max-width: 1920px;
-    margin: 0 auto;
-  }
 }
 
 /******NavBar******/
@@ -138,6 +120,36 @@ a {
   }
 }
 
+
+.Container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/******Logo******/
+
+.Logo {
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.Logo img {
+  height: 40px;
+}
+
+.LogoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.LogoContainer h1 {
+  font-size: 20px;
+  color: #307F1A;
+}
+
+
+
+
 @media (min-width: 560px) {
   .SideDrawer {
     display: none;
@@ -171,31 +183,19 @@ a {
   }
 }
 
+
+
 @media (min-width: 560px) {
   .DrawerToggle {
       display: none;
   }
 }
 
-/******Logo******/
-
-.Logo {
-  padding: 8px;
-  box-sizing: border-box;
-}
-
-.Logo img {
-  height: 40px;
-}
-
-.LogoContainer {
-  display: flex;
-  align-items: center;
-}
-
-.LogoContainer h1 {
-  font-size: 20px;
-  color: #307F1A;
+@media (min-width: 1920px) {
+  .Container {
+    max-width: 1920px;
+    margin: 0 auto;
+  }
 }
 
 /******Banner******/
@@ -207,35 +207,4 @@ a {
 
 .BannerMargin {
   margin: 20px;
-  padding-top: 50px;
-}
-
-.BannerImage {
-  max-height: 350px;
-  max-width: 100%;
-  box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.3);
-}
-
-.PaddingBottom {
-  padding-bottom: 120px;
-}
-
-/******Intro******/
-
-.CompanyIntro {
-  margin: 50px 0;
-}
-
-.Arrow {
-  width: 18px;
-  display: inline;
-  padding-left: 25px;
-}
-
-.Inline {
-  display: inline;
-}
-
-.MarginTop {
-  margin: 40px;
 }

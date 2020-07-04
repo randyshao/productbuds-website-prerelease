@@ -5,7 +5,6 @@ body {
   font-family: 'Nunito', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #1B4C0F;
 }
 
 .App {
@@ -19,11 +18,6 @@ body {
 .Container {
   display: flex;
   justify-content: space-between;
-}
-
-a {
-  text-decoration: none;
-  color: #1B4C0F;
 }
 
 @media (min-width: 1920px) {
@@ -207,35 +201,11 @@ a {
 
 .BannerMargin {
   margin: 20px;
-  padding-top: 50px;
+  padding-top: 10px;
 }
 
 .BannerImage {
   max-height: 350px;
   max-width: 100%;
   box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.3);
-}
-
-.PaddingBottom {
-  padding-bottom: 120px;
-}
-
-/******Intro******/
-
-.CompanyIntro {
-  margin: 50px 0;
-}
-
-.Arrow {
-  width: 18px;
-  display: inline;
-  padding-left: 25px;
-}
-
-.Inline {
-  display: inline;
-}
-
-.MarginTop {
-  margin: 40px;
 }

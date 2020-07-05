@@ -11,5 +11,6 @@ const app = (
 )
 
 ReactDOM.render(
-  app, document.getElementById('root')
+  app,
+  document.getElementById('root')
 );

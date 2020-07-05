@@ -9,10 +9,8 @@ const NavBar = (props) => {
         <header className="Navbar">
             <div className="Container"> 
                 <div className='LogoContainer'>
-                    <a href='/'>
-                        <Logo />
+                    <a href='/'><Logo /></a>
                     <h1>Product Buds</h1>
-                    </a>
                 </div>
                 <nav className='DesktopOnly'>
                     <NavLinks />

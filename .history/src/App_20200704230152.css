@@ -188,7 +188,7 @@ a {
   height: 40px;
 }
 
-.LogoContainer a {
+.LogoContainer {
   display: flex;
   align-items: center;
 }

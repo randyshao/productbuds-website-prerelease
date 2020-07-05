@@ -9,10 +9,10 @@ const NavBar = (props) => {
         <header className="Navbar">
             <div className="Container"> 
                 <div className='LogoContainer'>
-                    <a href='/'>
+                    <a href=''>
                         <Logo />
-                    <h1>Product Buds</h1>
                     </a>
+                    <h1>Product Buds</h1>
                 </div>
                 <nav className='DesktopOnly'>
                     <NavLinks />

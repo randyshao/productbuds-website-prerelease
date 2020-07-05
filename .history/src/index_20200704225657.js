@@ -11,5 +11,8 @@ const app = (
 )
 
 ReactDOM.render(
-  app, document.getElementById('root')
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
 );

@@ -188,11 +188,6 @@ a {
   height: 40px;
 }
 
-.LogoContainer a {
-  display: flex;
-  align-items: center;
-}
-
 .LogoContainer h1 {
   font-size: 20px;
   color: #307F1A;

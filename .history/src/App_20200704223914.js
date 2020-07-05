@@ -1,18 +1,16 @@
 import React from 'react';
-import {Route, Switch} from 'react-router-dom';
 import './App.css';
 import Layout from './components/Layout/Layout';
+import TitleBanner from './components/Layout/TitleBanner/TitleBanner';
+import CompanyIntro from './components/Layout/CompanyIntro/CompanyIntro';
+import CompanyStats from './components/Layout/CompanyStats/CompanyStats';
 import Home from './pages/Home';
-import About from './pages/About';
 
 function App() {
   return (
     <div className="App">
       <Layout>
-        <Switch>
-          <Route exact path='/' component={Home} />
-          <Route exact path='/about' component={About} />
-        </Switch>
+        <Home />
       </Layout>
     </div>
   );

@@ -11,8 +11,8 @@ const NavBar = (props) => {
                 <div className='LogoContainer'>
                     <a href='/'>
                         <Logo />
-                    <h1>Product Buds</h1>
                     </a>
+                    <h1>Product Buds</h1>
                 </div>
                 <nav className='DesktopOnly'>
                     <NavLinks />

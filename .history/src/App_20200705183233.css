@@ -306,22 +306,12 @@ a {
 }
 
 .SocialItem {
-  margin: 0;
-  display: flex;
-  width: auto;
-  align-items: center;
+  margin: 10px 0;
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
 }
 
 .SocialIcon {
   width: 30px;
-}
-
-.Profile img {
-  width: 290px;
-  border-radius: 20px;
-  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.3);
-}
-
-.Partner img {
-  width: 50px;
 }

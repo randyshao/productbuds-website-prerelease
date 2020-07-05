@@ -319,9 +319,4 @@ a {
 .Profile img {
   width: 290px;
   border-radius: 20px;
-  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.3);
-}
-
-.Partner img {
-  width: 50px;
 }

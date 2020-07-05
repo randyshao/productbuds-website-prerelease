@@ -12,7 +12,7 @@ const Home = () => {
             <TitleBanner />
             <CompanyIntro />
             <CompanyStats />
-            <CallToAction />
+            <
         </Auxiliary>
     )
     

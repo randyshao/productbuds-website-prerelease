@@ -3,7 +3,7 @@ import React from 'react';
 const ButtonPill = (props) => {
     return (
         <div>
-            <button className='Pill' style={{color: (props.color), backgroundColor: (props.bgColor)}}>Let's Connect</button>
+            <button className='Pill' style={{color: (props.color)}}>Let's Connect</button>
         </div>
     )
 }

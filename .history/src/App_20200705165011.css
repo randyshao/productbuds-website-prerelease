@@ -203,7 +203,6 @@ a {
 .TitleBanner {
   background-color: #EAF8D3;
   width: 100%;
-  padding-bottom: 120px;
 }
 
 .BannerMargin {
@@ -215,6 +214,10 @@ a {
   max-height: 350px;
   max-width: 100%;
   box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.3);
+}
+
+.PaddingBottom {
+  padding-bottom: 120px;
 }
 
 /******Intro******/
@@ -274,14 +277,8 @@ a {
 .AboutBanner {
   background-color: white;
   width: 100%;
-  color: #307F1A;
-  padding-bottom: 120px;
 }
 
 .BannerPadding {
   padding-top: 50px;
-}
-
-.AboutBannerMargin {
-  margin: 20px;
 }

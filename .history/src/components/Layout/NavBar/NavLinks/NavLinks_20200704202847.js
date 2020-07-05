@@ -1,14 +1,13 @@
 import React from 'react';
 import '../../../../App.css';
 import NavItem from './NavItem';
-import ButtonPill from '../../../UI/ButtonPill';
+import ButtonPill from '../../../UI/ButtonPill'
 
 const NavLinks = () => {
     return (
         <ul className='NavLinks'>
             <NavItem link='/'>About</NavItem>
             <NavItem link='/'>Join Us</NavItem>
-            <ButtonPill />
         </ul>
     )
 };

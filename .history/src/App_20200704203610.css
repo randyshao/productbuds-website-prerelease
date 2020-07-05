@@ -251,23 +251,18 @@ a {
 .Pill {
   background-color: white;
   font-family: 'Nunito', sans-serif;
-  font-weight: 600;
   border: none;
   color: #1B4C0F;
-  padding: 12px 20px;
+  padding: 10px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  margin: 10px 15px;
+  margin: 4px 2px;
   cursor: pointer;
-  border-radius: 24px;
-  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.2);
-  transition: .3s;
-  text-transform: uppercase;
+  border-radius: 16px;
+  box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.3);
 }
 
 .Pill:hover {
-  background-color: #307F1A;
-  color: white;
-  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.3);
+  background-color: #EAF8D3;
 }

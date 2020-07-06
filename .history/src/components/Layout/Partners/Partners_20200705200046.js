@@ -5,12 +5,11 @@ import HelpYourPeers from '../../../assets/images/logos/helpyourpeers.jpg'
 import RocketBlocks from '../../../assets/images/logos/rocketblocks.png'
 import Wonsulting from '../../../assets/images/logos/wonsulting.png'
 import APMC from '../../../assets/images/logos/apmc.png'
-import RemoteStudents from '../../../assets/images/logos/remotestudents.jpg'
+import RemoteStudents from '../../../assets/images/logos/remotesstudents.jpg'
 
 const Partners = () => {
     return (
         <div>
-            <h2>Our Partners</h2>
             <Partner company={ProductSchool} />
             <Partner company={Wonsulting} />
             <Partner company={APMC} />

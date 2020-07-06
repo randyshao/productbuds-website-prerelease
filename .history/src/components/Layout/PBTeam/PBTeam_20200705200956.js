@@ -25,7 +25,7 @@ const PBTeam = () => {
             <Profile name='Randy Shao' role='Web Developer' headshot={Randy} />
             <Profile name='Sarah Ahmed' role='Web Developer' headshot={Sarah} />
             <Profile name='Phyllis Njoroge' role='Creative Director' headshot={Phyllis} />
-            <Profile name='Benjamin Allan-Rahill' role='Designer' headshot={Ben} />
+            <Profile name='Benjamin Allan-Rahill' role='Designer' headshot={Phyllis} />
         </div>
     )
 }

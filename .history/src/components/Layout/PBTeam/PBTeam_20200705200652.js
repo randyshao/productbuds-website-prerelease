@@ -9,7 +9,6 @@ import Darsh from '../../../assets/images/team/darsh.jpg'
 import Randy from '../../../assets/images/team/randy.jpg'
 import Sarah from '../../../assets/images/team/sarah.jpg'
 import Phyllis from '../../../assets/images/team/phyllis.jpg'
-import Ben from '../../../assets/images/team/ben.jpg'
 
 
 const PBTeam = () => {
@@ -22,10 +21,6 @@ const PBTeam = () => {
             <Profile name='Milap Patel' role='Co-founder' headshot={Milap} />
             <Profile name='Joseph Shin' role='Director of Growth and Marketing' headshot={Joseph} />
             <Profile name='Darsh Thakkar' role='Director of Product Studies' headshot={Darsh} />
-            <Profile name='Randy Shao' role='Web Developer' headshot={Randy} />
-            <Profile name='Sarah Ahmed' role='Web Developer' headshot={Sarah} />
-            <Profile name='Phyllis Njoroge' role='Creative Director' headshot={Phyllis} />
-            <Profile name='Benjamin Allan-Rahill' role='Designer' headshot={Ben} />
         </div>
     )
 }

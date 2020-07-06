@@ -1,16 +1,15 @@
 import React from 'react';
 import Partner from './Partner'
 import ProductSchool from '../../../assets/images/logos/productschool.jpg'
-import HelpYourPeers from '../../../assets/images/logos/helpyourpeers.jpg'
-import RocketBlocks from '../../../assets/images/logos/rocketblocks.png'
-import Wonsulting from '../../../assets/images/logos/wonsulting.png'
-import APMC from '../../../assets/images/logos/apmc.png'
-import RemoteStudents from '../../../assets/images/logos/remotestudents.jpg'
+import HelpYourPeers from '../../../assets/images/team/helpyourpeers.jpg'
+import RocketBlocks from '../../../assets/images/team/rocketblocks.png'
+import Wonsulting from '../../../assets/images/team/wonsulting.png'
+import APMC from '../../../assets/images/team/apmc.png'
+import RemoteStudents from '../../../assets/images/team/remotesstudents.jpg'
 
 const Partners = () => {
     return (
         <div>
-            <h2>Our Partners</h2>
             <Partner company={ProductSchool} />
             <Partner company={Wonsulting} />
             <Partner company={APMC} />

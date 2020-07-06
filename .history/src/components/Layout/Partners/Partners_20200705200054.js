@@ -10,7 +10,6 @@ import RemoteStudents from '../../../assets/images/logos/remotestudents.jpg'
 const Partners = () => {
     return (
         <div>
-            <h2>Our Partners</h2>
             <Partner company={ProductSchool} />
             <Partner company={Wonsulting} />
             <Partner company={APMC} />

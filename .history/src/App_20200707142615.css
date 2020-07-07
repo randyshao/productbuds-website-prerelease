@@ -339,17 +339,8 @@ a {
 /******Partners******/
 
 .Partners {
-  margin: 50px 20px;
-}
-
-.PartnerContainer {
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-.Partner {
-  margin: 50px 20px;
+  flex-direction: column;
 }
 
 /******Pill******/
@@ -438,7 +429,3 @@ a {
 }
 
 /******CallToAction******/
-
-.CallToAction {
-  margin: 50px 20px;
-}

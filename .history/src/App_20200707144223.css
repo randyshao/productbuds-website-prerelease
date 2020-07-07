@@ -344,12 +344,12 @@ a {
 
 .PartnerContainer {
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  justify-content: space-evenly;
+  column-span: 2;
 }
 
 .Partner {
-  margin: 50px 20px;
+  
 }
 
 /******Pill******/
@@ -438,7 +438,3 @@ a {
 }
 
 /******CallToAction******/
-
-.CallToAction {
-  margin: 50px 20px;
-}

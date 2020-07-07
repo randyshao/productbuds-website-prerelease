@@ -6,6 +6,7 @@ const Partners = () => {
         <div className='Partners'>
             <h2>We have collaborated on events with:</h2>
             <PartnerContainer />
+
         </div>
     )
 }

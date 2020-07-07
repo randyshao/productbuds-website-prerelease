@@ -344,7 +344,7 @@ a {
 
 .PartnerContainer {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
@@ -438,7 +438,3 @@ a {
 }
 
 /******CallToAction******/
-
-.CallToAction {
-  margin: 50px 20px;
-}

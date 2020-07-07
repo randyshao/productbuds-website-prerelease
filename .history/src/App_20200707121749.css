@@ -264,7 +264,7 @@ a {
 }
 
 .MarginTop {
-  margin-top: 40px;
+  margin: 40px;
 }
 
 .IntroImage {
@@ -275,18 +275,21 @@ a {
 @media (min-width: 768px) { 
   .CompanyIntro {
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 100px 20px;
   }
   
   .AboutPB {
-    width: 50%;
-    text-align: left;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 60px;
   }
 
   .IntroImage {
-    width: 50%;
+    margin: 0 40px 0 0;
+    max-width: 500px;
+    max-height: none;
+    box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.3);
+    width: 40%;
   }
 }
 

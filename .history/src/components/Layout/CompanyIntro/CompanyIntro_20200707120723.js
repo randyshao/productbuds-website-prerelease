@@ -1,6 +1,6 @@
 import React from 'react';
 import ArrowLink from './ArrowLink';
-import PBLogo from '../../../assets/images/drop-logo.svg';
+import PBLogo from '../../../assets/images/drop-logo-transparent.svg';
 
 const CompanyIntro = () => {
     return (
@@ -12,7 +12,7 @@ const CompanyIntro = () => {
                     connections, and strive towards goals together.</p>
                     <ArrowLink link='/about'/>
             </div>
-            <img className='IntroImage' src={PBLogo} alt="Product Buds Logo"/>
+            <img className='BannerImage' src={PBLogo} alt="Product Buds Logo"/>
         </div>
     )
 }

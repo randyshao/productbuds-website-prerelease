@@ -277,16 +277,16 @@ a {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin: 100px 20px;
   }
   
   .AboutPB {
-    width: 50%;
+    width: 60%;
     text-align: left;
+    margin-right: 
   }
 
   .IntroImage {
-    width: 50%;
+    width: 40%;
   }
 }
 

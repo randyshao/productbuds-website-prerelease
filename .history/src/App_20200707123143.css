@@ -277,12 +277,12 @@ a {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin: 100px 20px;
   }
   
   .AboutPB {
     width: 50%;
     text-align: left;
+    margin-right: 
   }
 
   .IntroImage {

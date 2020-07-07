@@ -264,30 +264,13 @@ a {
 }
 
 .MarginTop {
-  margin-top: 40px;
+  margin: 40px;
 }
 
 .IntroImage {
-  max-width: 350px;
+  max-height: 350px;
+  max-width: 80%;
   box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.3);
-}
-
-@media (min-width: 768px) { 
-  .CompanyIntro {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 100px 20px;
-  }
-  
-  .AboutPB {
-    width: 50%;
-    text-align: left;
-  }
-
-  .IntroImage {
-    width: 50%;
-  }
 }
 
 /******Stats******/
@@ -338,8 +321,6 @@ a {
 .AboutBannerMargin {
   margin: 20px;
 }
-
-/******Footer******/
 
 .Footer {
   height: 150px;

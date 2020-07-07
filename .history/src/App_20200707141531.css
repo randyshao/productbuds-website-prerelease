@@ -325,10 +325,6 @@ a {
   margin: 10px 15px;
 }
 
-.Platform {
-  color: #1B4C0F;
-}
-
 @media (min-width: 768px) { 
   .CompanyStats {
     margin: 100px 20px;

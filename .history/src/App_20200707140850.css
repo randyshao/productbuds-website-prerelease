@@ -12,14 +12,6 @@ p {
   line-height: 175%;
 }
 
-h1 {
-  font-size: 2.2rem;
-}
-
-h2 {
-  font-size: 2rem;
-}
-
 .App {
   text-align: center;
 }
@@ -323,10 +315,6 @@ a {
   text-decoration: none;
   display: inline-block;
   margin: 10px 15px;
-}
-
-.Platform {
-  color: #1B4C0F;
 }
 
 @media (min-width: 768px) { 

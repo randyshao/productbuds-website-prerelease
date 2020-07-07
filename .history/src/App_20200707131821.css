@@ -8,18 +8,6 @@ body {
   color: #1B4C0F;
 }
 
-p {
-  line-height: 175%;
-}
-
-h1 {
-  font-size: 2.2rem;
-}
-
-h2 {
-  font-size: 2rem;
-}
-
 .App {
   text-align: center;
 }
@@ -289,7 +277,7 @@ a {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin: 150px 20px;
+    margin: 100px 20px;
   }
   
   .AboutPB {
@@ -304,36 +292,11 @@ a {
 
 /******Stats******/
 
-.CompanyStats {
-  margin: 50px 20px;
-}
-
-.center {
-  margin: 0 auto;
-}
-
 .Statbox {
   background-color: #EAF8D3;
-  height: 120px;
-  width: 200px;
+  height: 100px;
+  width: 300px;
   color: #307F1A;
-  border-radius: 10px;
-  padding: 12px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin: 10px 15px;
-}
-
-.Platform {
-  color: #1B4C0F;
-}
-
-@media (min-width: 768px) { 
-  .CompanyStats {
-    margin: 100px 20px;
-  }
-  
 }
 
 /******Pill******/

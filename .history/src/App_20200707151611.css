@@ -421,7 +421,7 @@ a {
   background-color: white;
   width: 100%;
   color: #307F1A;
-  padding-bottom: 80px;
+  padding-bottom: 120px;
 }
 
 .BannerPadding {
@@ -430,7 +430,6 @@ a {
 
 .AboutBannerMargin {
   margin: 20px;
-  padding-top: 50px;
 }
 
 .Profile img {

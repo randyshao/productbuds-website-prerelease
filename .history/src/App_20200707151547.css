@@ -194,39 +194,6 @@ a {
   }
 }
 
-/******Footer******/
-
-.Footer {
-  height: 150px;
-  width: 100%;
-  background-color: #C9EFAE;
-  padding: 20px;
-  box-sizing: border-box;
-  z-index: 95;
-  font-weight: 500;
-}
-
-.SocialLinks {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: flex;
-  align-items: center;
-  flex-flow: row;
-}
-
-.SocialItem {
-  margin: 0;
-  display: flex;
-  width: auto;
-  align-items: center;
-}
-
-.SocialIcon {
-  width: 30px;
-}
-
-
 /******Logo******/
 
 .Logo {
@@ -421,7 +388,7 @@ a {
   background-color: white;
   width: 100%;
   color: #307F1A;
-  padding-bottom: 80px;
+  padding-bottom: 120px;
 }
 
 .BannerPadding {
@@ -430,7 +397,6 @@ a {
 
 .AboutBannerMargin {
   margin: 20px;
-  padding-top: 50px;
 }
 
 .Profile img {
@@ -439,6 +405,37 @@ a {
   box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.3);
 }
 
+/******Footer******/
+
+.Footer {
+  height: 150px;
+  width: 100%;
+  background-color: #C9EFAE;
+  padding: 20px;
+  box-sizing: border-box;
+  z-index: 95;
+  font-weight: 500;
+}
+
+.SocialLinks {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  flex-flow: row;
+}
+
+.SocialItem {
+  margin: 0;
+  display: flex;
+  width: auto;
+  align-items: center;
+}
+
+.SocialIcon {
+  width: 30px;
+}
 
 
 

@@ -456,7 +456,6 @@ a {
   margin-left: 35px;
   background-color: #A3E585;
   border-radius: 30px 0 0 30px;
-  max-width: 1500px;
 }
 
 .TextContainer {
@@ -476,9 +475,8 @@ a {
   
   .ImageTextBox {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     width: 90%;
-    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.3);
   }
 
   .TextContainer {
@@ -491,44 +489,29 @@ a {
   
 
   .TextImage {
-    max-width: 400px;
+    max-width: 500px;
     width: 35%;
   }
 }
 
+@media (min-width: 1920px) {
+  .TextImage {
+    max-width: 500px;
+  }
+}
+
+
 /******PB Team******/
 
 .PBTeam {
-  margin-top: 50px;
-}
-
-.PBHeader {
   margin-left: 20px;
   margin-right: 20px;
 }
 
-.Profile {
-  margin: 40px 40px;
-}
-
 .Profile img {
   width: 290px;
-  height: 290px;
   border-radius: 20px;
   box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.3);
-  transition: 0.2s;
-}
-
-.Profile img:hover {
-  transform: scale(1.05);
-}
-
-@media (min-width: 768px) {
-  .ProfilesContainer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
 }
 
 /******CallToAction******/

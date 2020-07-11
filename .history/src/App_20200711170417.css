@@ -513,21 +513,15 @@ a {
 
 .Profile img {
   width: 290px;
-  height: 290px;
   border-radius: 20px;
   box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.3);
-  transition: 0.2s;
-}
-
-.Profile img:hover {
-  transform: scale(1.05);
 }
 
 @media (min-width: 768px) {
   .ProfilesContainer {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    width: 100vw;
+    overflow: hidden;
   }
 }
 

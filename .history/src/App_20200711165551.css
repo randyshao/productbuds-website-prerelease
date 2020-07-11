@@ -478,7 +478,6 @@ a {
     display: flex;
     justify-content: center;
     width: 90%;
-    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.3);
   }
 
   .TextContainer {
@@ -498,36 +497,24 @@ a {
 
 /******PB Team******/
 
-.PBTeam {
-  margin-top: 50px;
-}
-
 .PBHeader {
   margin-left: 20px;
   margin-right: 20px;
 }
 
 .Profile {
-  margin: 40px 40px;
+  margin: 40px 20px;
 }
 
 .Profile img {
   width: 290px;
-  height: 290px;
   border-radius: 20px;
   box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.3);
-  transition: 0.2s;
-}
-
-.Profile img:hover {
-  transform: scale(1.05);
 }
 
 @media (min-width: 768px) {
   .ProfilesContainer {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
   }
 }
 

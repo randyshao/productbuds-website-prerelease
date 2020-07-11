@@ -5,7 +5,7 @@ import ProfileContainer from './ProfilesContainer'
 const PBTeam = () => {
     return (
         <div class='PBTeam'>
-            <h1 class='PBTeam'>Meet the Product Buds Team</h1>
+            <h1> class='PBTeamMeet the Product Buds Team</h1>
             <ProfileContainer />
         </div>
     )

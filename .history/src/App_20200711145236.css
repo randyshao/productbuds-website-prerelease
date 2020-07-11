@@ -1,0 +1,469 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #1B4C0F;
+}
+
+p {
+  line-height: 175%;
+}
+
+h1 {
+  font-size: 2.2rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+.App {
+  text-align: center;
+}
+
+.Content {
+  margin-top: 70px;
+}
+
+.Container {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: #1B4C0F;
+}
+
+.MainContent {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+@media (min-width: 1920px) {
+  .Container {
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+}
+
+/******NavBar******/
+
+.Navbar {
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #C9EFAE;
+  padding: 0 20px;
+  box-sizing: border-box;
+  z-index: 90;
+}
+
+.Navbar nav {
+  height: 100%;
+}
+
+.NavLinks {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  flex-flow: column;
+}
+
+.NavItem {
+  margin: 10px 0;
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+}
+
+.NavItem a {
+  color: #307F1A;
+  text-decoration: none;
+  width: 100%;
+  box-sizing: border-box;
+  display: block;
+}
+
+.NavItem a:hover,
+.NavItem a:active
+.NavItem a.active {
+  border-bottom: 4px solid #307F1A;
+}
+
+.SideDrawer {
+  position: fixed;
+  width: 380px;
+  max-width: 80%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 200;
+  background-color: #C9EFAE;
+  padding: 32px 16px;
+  box-sizing: border-box;
+  transition: transform 0.3s ease-out;
+}
+
+.Open {
+  transform: translateX(0);
+}
+
+.Close {
+  transform: translateX(-100%);
+}
+
+.Backdrop {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.DrawerToggle {
+  width: 30px;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 21px 0;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.DrawerToggle div {
+  width: 90%;
+  height: 4px;
+  background-color: #307F1A;
+}
+
+@media (max-width: 559px) {
+  .DesktopOnly {
+    display: none;
+  }
+}
+
+@media (min-width: 560px) {
+  .SideDrawer {
+    display: none;
+  }
+  .NavLinks {
+    flex-flow: row;
+  }
+
+  .Logo {
+    margin-bottom: 0;
+  }
+  
+  .NavItem {
+    margin: 0;
+    display: flex;
+    height: 100%;
+    width: auto;
+    align-items: center;
+  }
+  
+  .NavItem a {
+    height: 100%;
+    padding: 16px 10px;
+    border-bottom: 4px solid transparent;
+  }
+  
+  .NavItem a:hover,
+  .NavItem a:active
+  .NavItem a.active {
+    border-bottom: 4px solid #307F1A;
+  }
+}
+
+@media (min-width: 560px) {
+  .DrawerToggle {
+      display: none;
+  }
+}
+
+/******Footer******/
+
+.Footer {
+  height: 150px;
+  width: 100%;
+  background-color: #C9EFAE;
+  padding: 20px;
+  box-sizing: border-box;
+  z-index: 95;
+  font-weight: 500;
+}
+
+.SocialLinks {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  flex-flow: row;
+}
+
+.SocialItem {
+  margin: 0;
+  display: flex;
+  width: auto;
+  align-items: center;
+}
+
+.SocialIcon {
+  width: 30px;
+}
+
+
+/******Logo******/
+
+.Logo {
+  padding: 8px 8px 0 0;
+  box-sizing: border-box;
+}
+
+.Logo img {
+  height: 40px;
+}
+
+.LogoContainer a {
+  display: flex;
+  align-items: center;
+}
+
+.LogoContainer h1 {
+  font-size: 20px;
+  color: #307F1A;
+}
+
+/******Banner******/
+
+.TitleBanner {
+  background-color: #C9EFAE;
+  width: 100%;
+  padding-bottom: 80px;
+}
+
+.BannerMargin {
+  margin: 20px;
+  padding-top: 50px;
+  text-align: left;
+}
+
+.BannerImage {
+  max-width: 500px;
+  box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.3);
+}
+
+@media (min-width: 768px) { 
+  .TitleBanner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 60px;
+  }
+
+  .BannerMargin {
+    margin: 0 0 0 80px;
+    padding-top: 0px;
+    text-align: left;
+    width: 60%;
+  }
+
+  .BannerImage {
+    margin: 0 40px 0 0;
+    max-width: 500px;
+    max-height: none;
+    box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.3);
+    width: 40%;
+  }
+}
+
+/******Intro******/
+
+.CompanyIntro {
+  margin: 50px 20px;
+}
+
+.Arrow {
+  width: 18px;
+  display: inline;
+  padding-left: 25px;
+}
+
+.Inline {
+  display: inline;
+}
+
+.MarginTop {
+  margin-top: 40px;
+}
+
+.IntroImage {
+  max-width: 350px;
+  box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.3);
+}
+
+@media (min-width: 768px) { 
+  .CompanyIntro {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 150px 20px;
+  }
+  
+  .AboutPB {
+    width: 50%;
+    text-align: left;
+  }
+
+  .IntroImage {
+    width: 50%;
+  }
+}
+
+/******Stats******/
+
+.CompanyStats {
+  margin: 50px 20px;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.Statbox {
+  background-color: #EAF8D3;
+  height: 120px;
+  width: 200px;
+  color: #307F1A;
+  border-radius: 10px;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px 15px;
+}
+
+.Platform {
+  color: #1B4C0F;
+}
+
+@media (min-width: 768px) { 
+  .CompanyStats {
+    margin: 100px 20px;
+  }
+  
+}
+
+/******Partners******/
+
+.Partners {
+  margin: 50px 20px;
+}
+
+.PartnerContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.Partner {
+  margin: 50px 20px;
+}
+
+.Partner img {
+  width: 50px;
+}
+
+/******Pill******/
+
+.Pill {
+  background-color: white;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  border: none;
+  color: #1B4C0F;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px 15px;
+  cursor: pointer;
+  border-radius: 24px;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.2);
+  transition: .3s;
+  text-transform: uppercase;
+}
+
+.Pill:hover {
+  background-color: #307F1A;
+  color: white;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.3);
+}
+
+/******AboutBanner******/
+
+.TextBanner {
+  background-color: white;
+  width: 100%;
+  color: #307F1A;
+  padding-bottom: 80px;
+  text-align: left;
+}
+
+
+.SmallHeader {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 50px;
+}
+
+.BannerHeadline {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+@media (min-width: 560px) {
+  .SmallHeader {
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-top: 50px;
+  }
+  
+  .BannerHeadline {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+}
+
+/******PB Team******/
+
+.PBTeam {
+  margin-left: 20px;
+}
+
+.Profile img {
+  width: 290px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.3);
+}
+
+/******CallToAction******/
+
+.CallToAction {
+  margin: 50px 20px;
+}

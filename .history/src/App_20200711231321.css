@@ -10,7 +10,7 @@ body {
 
 p {
   line-height: 175%;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 h1 {
@@ -492,7 +492,6 @@ a {
     display: flex;
     justify-content: center;
     width: 90%;
-    padding: 60px 60px 60px 80px;
   }
 
   .TextContainer {

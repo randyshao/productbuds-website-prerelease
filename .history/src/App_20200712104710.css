@@ -528,7 +528,7 @@ a {
 
 .Image img {
   width: 200px;
-  border-radius: 50%;
+  height: 200px;
   position: absolute;
   left: 33%;
 }

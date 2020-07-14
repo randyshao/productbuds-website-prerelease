@@ -54,13 +54,13 @@ a {
 /******NavBar******/
 
 .Navbar {
-  height: 70px;
+  height: 5em;
   width: 100%;
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #C9EFAE;
-  padding: 0 20px;
+  background-color: white;
+  padding: 10px;
   box-sizing: border-box;
   z-index: 90;
 }
@@ -84,6 +84,7 @@ a {
   box-sizing: border-box;
   display: block;
   width: 100%;
+  padding: 0 20px 0 20px;
 }
 
 .NavItem a {
@@ -200,31 +201,42 @@ a {
 .Footer {
   height: 150px;
   width: 100%;
-  background-color: #C9EFAE;
+  background-color: white;
   padding: 20px;
   box-sizing: border-box;
   z-index: 95;
   font-weight: 500;
 }
 
-.SocialLinks {
+.Container {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+}
+
+.SocialsLinks {
   margin: 0;
   padding: 0;
   list-style: none;
   display: flex;
-  align-items: center;
   flex-flow: row;
+  align-self: flex-end;
+  align-content: space-around;
+  flex-wrap: nowrap;
 }
 
 .SocialItem {
   margin: 0;
-  display: flex;
-  width: auto;
-  align-items: center;
+  padding: 5px;
 }
 
 .SocialIcon {
-  width: 30px;
+  width: 3.5em;
+  height: 3.5em;
+}
+
+.FooterText{
+  align-self: flex-start;
 }
 
 
@@ -236,7 +248,7 @@ a {
 }
 
 .Logo img {
-  height: 40px;
+  height: 2.5em;
 }
 
 .LogoContainer a {
@@ -252,20 +264,26 @@ a {
 /******Banner******/
 
 .TitleBanner {
-  background-color: #C9EFAE;
+  background-color: white;
   width: 100%;
   padding-bottom: 80px;
 }
 
-.BannerMargin {
+.TitleBanner-MainContent {
+  display: flex;
+  flex-direction: column;
   margin: 20px;
-  padding-top: 50px;
+  align-items: stretch;
   text-align: left;
 }
 
 .BannerImage {
   max-width: 500px;
   box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.3);
+}
+
+.Tagline {
+  color: #42AD24;
 }
 
 @media (min-width: 768px) { 
@@ -298,9 +316,9 @@ a {
 }
 
 .Arrow {
-  width: 18px;
+  width: 2em;
   display: inline;
-  padding-left: 25px;
+  padding-left: 2em;
 }
 
 .Inline {
@@ -397,7 +415,8 @@ a {
 }
 
 .Partner img {
-  width: 50px;
+  width: 80px;
+  height: 80px;
 }
 
 /******Pill******/
@@ -467,7 +486,7 @@ a {
 .ImageTextBox {
   padding: 20px 20px 20px 40px;
   margin-left: 35px;
-  background-color: #A3E585;
+  background-color: #EAF8D3;
   border-radius: 30px 0 0 30px;
   max-width: 2100px;
   box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.3);
@@ -515,7 +534,7 @@ a {
 .Initiative {
   padding: 40px 40px 40px 60px;
   margin-left: 35px;
-  background-color: #A3E585;
+  background-color: #EAF8D3;
   border-radius: 30px 0 0 30px;
   margin-bottom: 225px;
   position: relative;

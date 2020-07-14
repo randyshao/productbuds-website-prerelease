@@ -9,7 +9,7 @@ import ImageTextBox from '../components/Layout/ImageTextBox/ImageTextBox';
 const About = () => {
     return (
         <Auxiliary>
-            <TextBanner smallHeader='The Product Buds Mission'>To provide a space for the next generation of product managers to sprout, grow, and flourish their careers.</TextBanner>
+            <TextBanner smallHeader='The Product Buds Mission'>Build an inclusive community where budding product managers sprout, grow, and flourish.</TextBanner>
             <ImageTextBox />
             <PBTeam />
         </Auxiliary>

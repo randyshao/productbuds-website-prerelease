@@ -11,7 +11,6 @@ import UpcomingEvent from '../components/Layout/Events/UpcomingEvent'
 const Initiatives = () => {
     return (
         <Auxiliary>
-            <UpcomingEvent />
             <TextBanner smallHeader='Our Initiatives'>We give our community the resources they need to flourish in Product Management.</TextBanner>
             <Initiative title='Project Jam' image={ProjectJam}>Product Buds Project Jam immmerses you in the collaborative product development process and enhances your project portfolio! 
                 Whether you're an aspiring Product Manager (PM) who just stumbled on this field recently or a current PM who's well-versed in many areas of product, this opportunity will 

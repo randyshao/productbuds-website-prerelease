@@ -335,7 +335,7 @@ a {
 .CompanyIntroBackground {
   background-color: #A3E585;
   width: 100%;
-  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 20px 60px rgba(48, 127, 26, 0.15);
 }
 
 
@@ -622,16 +622,13 @@ a {
 }
 
 @media (min-width: 768px) {
-  .EventBlock {
-    display: flex;
-    max-width: 1080px;
+  .UpcomingEvent {
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
-    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
   }
 
   .UpcomingEvent img {
-    max-width: 550px;
+    width: 450px;
     height: 300px;
     object-fit: cover;
   }

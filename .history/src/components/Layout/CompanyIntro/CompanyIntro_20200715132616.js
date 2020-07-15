@@ -4,7 +4,7 @@ import IntroImage from '../../../assets/images/companyintro-image.svg';
 
 const CompanyIntro = () => {
     return (
-        <div className='CompanyIntroBackground'>
+        <div className='CompanyIntroBackgroun'>
             <div className='CompanyIntro MainContent'>
                 <div className='AboutPB'>
                     <h1>What is Product Buds?</h1>

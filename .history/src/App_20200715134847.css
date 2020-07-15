@@ -335,7 +335,7 @@ a {
 .CompanyIntroBackground {
   background-color: #A3E585;
   width: 100%;
-  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 20px 60px rgba(48, 127, 26, 0.15);
 }
 
 
@@ -598,44 +598,14 @@ a {
 .UpcomingEvent {
   background-color: #A3E585;
   padding-top: 60px;
-  padding-bottom: 60px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.EventBlock {
-  padding: 40px 0;
-  background-color: #C9EFAE; 
-  border-radius: 10px;
-  width: 100%;
-}
-
-.EventBlock h1 {
-  margin: 0px;
 }
 
 .UpcomingEvent img {
-  width: 80%;
+  width: 400px;
   height: 300px;
   object-fit: cover;
 }
 
-@media (min-width: 768px) {
-  .EventBlock {
-    display: flex;
-    max-width: 1080px;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
-  }
-
-  .UpcomingEvent img {
-    max-width: 550px;
-    height: 300px;
-    object-fit: cover;
-  }
-}
 
 /******Initiative******/
 

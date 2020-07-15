@@ -1,0 +1,706 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #1B4C0F;
+}
+
+p {
+  line-height: 175%;
+  font-family: 'Nunito', sans-serif;
+}
+
+h1 {
+  font-size: 2.2rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+.App {
+  text-align: center;
+  background-color: #fafafa;
+}
+
+.Content {
+  margin-top: 70px;
+}
+
+.Container {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: #1B4C0F;
+}
+
+.MainContent {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+@media (min-width: 1920px) {
+  .Container {
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+}
+
+/******NavBar******/
+
+.Navbar {
+  height: 5em;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #C9EFAE;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  z-index: 90;
+}
+
+.Navbar nav {
+  height: 100%;
+}
+
+.NavLinks {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  flex-flow: column;
+}
+
+.NavItem {
+  margin: 10px 0;
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.NavItem a {
+  color: #307F1A;
+  text-decoration: none;
+  width: 100%;
+  box-sizing: border-box;
+  display: block;
+}
+
+.NavItem a:hover,
+.NavItem a:active
+.NavItem a.active {
+  border-bottom: 4px solid #307F1A;
+}
+
+.SideDrawer {
+  position: fixed;
+  width: 380px;
+  max-width: 80%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 200;
+  background-color: #C9EFAE;
+  padding: 32px 16px;
+  box-sizing: border-box;
+  transition: transform 0.3s ease-out;
+}
+
+.Open {
+  transform: translateX(0);
+}
+
+.Close {
+  transform: translateX(-100%);
+}
+
+.Backdrop {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.DrawerToggle {
+  width: 30px;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 21px 0;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.DrawerToggle div {
+  width: 90%;
+  height: 4px;
+  background-color: #307F1A;
+}
+
+@media (max-width: 559px) {
+  .DesktopOnly {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .DesktopOnlyMedium {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .SingleLogo {
+    display: none;
+  }
+}
+
+@media (min-width: 560px) {
+  .SideDrawer {
+    display: none;
+  }
+  .NavLinks {
+    flex-flow: row;
+  }
+
+  .Logo {
+    margin-bottom: 0;
+  }
+  
+  .NavItem {
+    margin: 0;
+    display: flex;
+    height: 100%;
+    width: auto;
+    align-items: center;
+  }
+  
+  .NavItem a {
+    height: 100%;
+    padding: 16px 10px;
+    border-bottom: 4px solid transparent;
+  }
+  
+  .NavItem a:hover,
+  .NavItem a:active
+  .NavItem a.active {
+    border-bottom: 4px solid #307F1A;
+  }
+}
+
+@media (min-width: 560px) {
+  .DrawerToggle {
+      display: none;
+  }
+}
+
+/******Footer******/
+
+.Footer {
+  height: 150px;
+  width: 100%;
+  background-color: rgb(247, 247, 247);
+  padding: 20px;
+  box-sizing: border-box;
+  z-index: 95;
+  font-weight: 500;
+  border-top: 1px solid rgb(226, 226, 226);
+}
+
+.Container {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+}
+
+.SocialsLinks {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-flow: row;
+  align-self: flex-end;
+  align-content: space-around;
+  flex-wrap: nowrap;
+}
+
+.SocialItem {
+  margin: 0;
+  padding: 5px;
+}
+
+.SocialIcon {
+  width: 3.5em;
+  height: 3.5em;
+}
+
+.FooterText{
+  align-self: flex-start;
+}
+
+
+/******Logo******/
+
+.Logo,
+.SingleLogo {
+  padding: 8px 8px 0 0;
+  box-sizing: border-box;
+}
+
+.Logo img,
+.SingleLogo img {
+  height: 2em;
+}
+
+.LogoContainer a {
+  display: flex;
+  align-items: center;
+}
+
+.LogoContainer h1 {
+  font-size: 20px;
+  color: #307F1A;
+}
+
+/******Banner******/
+
+.TitleBanner {
+  background-color: #C9EFAE;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 80px;
+}
+
+.TitleBannerText {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 20px 20px 60px;
+  align-items: stretch;
+  text-align: left;
+}
+
+.BannerImage {
+  max-width: 500px;
+}
+
+.Tagline {
+  color: #42AD24;
+}
+
+@media (min-width: 768px) { 
+  .TitleBanner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+  }
+
+  .BannerImage {
+    margin: 0 60px 0 20px;
+    width: 40%;
+  }
+}
+
+/******Intro******/
+
+.CompanyIntro {
+  margin: 50px 20px;
+}
+
+.Arrow {
+  width: 2em;
+  display: inline;
+  padding-left: 2em;
+}
+
+.Inline {
+  display: inline;
+}
+
+.MarginTop {
+  margin-top: 40px;
+}
+
+.IntroImage {
+  max-width: 350px;
+}
+
+@media (min-width: 768px) { 
+  .CompanyIntro {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 150px 20px;
+  }
+  
+  .AboutPB {
+    width: 50%;
+    text-align: left;
+  }
+
+  .IntroImage {
+    width: 50%;
+  }
+}
+
+/******Stats******/
+
+.CompanyStats {
+  margin: 50px 20px;
+}
+
+.Stat {
+  margin: 0 auto;
+}
+
+.StatSection {
+  justify-content: center;
+  align-items: center;
+}
+
+.Statbox {
+  background-color: #EAF8D3;
+  height: 200px;
+  width: 200px;
+  color: #307F1A;
+  border-radius: 50%;
+  padding: 20px 20px;
+  text-decoration: none;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Platform {
+  color: #1B4C0F;
+}
+
+@media (min-width: 768px) { 
+  .CompanyStats {
+    margin: 100px 20px;
+  }
+
+  .StatSection {
+    display: flex;
+    justify-content: center;
+  }
+  
+}
+
+/******Partners******/
+
+.Partners {
+  margin: 50px 20px;
+}
+
+.PartnerContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.Partner {
+  margin: 50px 20px;
+}
+
+.Partner img {
+  width: 80px;
+  height: 80px;
+}
+
+/******Pill******/
+
+.Pill {
+  background-color: white;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  border: none;
+  color: #1B4C0F;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px 15px;
+  cursor: pointer;
+  border-radius: 24px;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.2);
+  transition: .3s;
+  text-transform: uppercase;
+}
+
+.Pill:hover {
+  background-color: #307F1A;
+  color: white;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.3);
+}
+
+/******AboutBanner******/
+
+.TextBanner {
+  background-color: white;
+  width: 100%;
+  color: #307F1A;
+  padding-top: 40px;
+  padding-bottom: 80px;
+  text-align: left;
+}
+
+
+.SmallHeader {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 50px;
+}
+
+.BannerHeadline {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+@media (min-width: 560px) {
+  .SmallHeader {
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-top: 50px;
+  }
+  
+  .BannerHeadline {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+}
+
+/******Image Text Box******/
+
+.ImageTextBox {
+  padding: 20px 20px 20px 40px;
+  margin-left: 35px;
+  background-color: #EAF8D3;
+  border-radius: 30px 0 0 30px;
+  max-width: 2100px;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
+}
+
+.TextContainer {
+  text-align: left;
+}
+
+.TextImage {
+  max-width: 300px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .ImageTextBoxDisplay {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .ImageTextBox {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    padding: 60px 60px 60px 80px;
+  }
+
+  .TextContainer {
+    width: 65%;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+
+  .TextImage {
+    max-width: 400px;
+    width: 35%;
+  }
+}
+
+/******Initiative******/
+
+.Initiative {
+  padding: 40px 40px 40px 60px;
+  margin-left: 35px;
+  background-color: #EAF8D3;
+  border-radius: 30px 0 0 30px;
+  margin-bottom: 225px;
+  position: relative;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
+}
+
+.Textbox {
+  text-align: left;
+}
+
+.Image img {
+  width: 200px;
+  border-radius: 50%;
+  position: absolute;
+  left: 33%;
+}
+
+@media (min-width: 768px) {
+  .Initiative {
+    width: 70%;
+    margin-bottom: 120px;
+  }
+
+  .Image img {
+    bottom: 15%;
+    left: -150px;
+    width: 300px;
+  }
+  .Textbox {
+    text-align: left;
+    position: relative;
+    padding: 40px 40px 40px 140px;
+  }
+
+}
+
+/******PB Team******/
+
+.PBTeam {
+  margin-top: 50px;
+}
+
+.PBHeader {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.Profile {
+  margin: 35px;
+  padding: 35px;
+  color: #307F1A;
+  line-height: 15px;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.2);
+  width: 350px;
+  border-radius: 10px;
+  font-family: "Lato";
+}
+
+.Profile h2 {
+  color: #1B4C0F;
+}
+
+.Profile h3 {
+  font-size: 0.98em;
+}
+
+.Profile img {
+  width: 250px;
+  height: 250px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.2);
+  transition: 0.2s;
+}
+
+.Profile img:hover {
+  transform: scale(1.05);
+}
+
+.ProfileModal {
+  position: fixed;
+  z-index: 500;
+  background-color: white;
+  width: 70%;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px black;
+  padding: 16px;
+  left: 15%;
+  top: 30%;
+  box-sizing: border-box;
+  transition: all 0.3s ease-out;
+}
+
+@media (min-width: 768px) {
+  .ProfilesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+/******Testimonials******/
+
+.Testimonials {
+  width: 100%;
+}
+
+.QuotePadding {
+  padding: 20px;
+}
+
+.QuoteBox {
+  margin: 0 auto;
+  width: 100%;
+  background-color: #C9EFAE;
+  border-radius: 20px;
+}
+
+.QuoteNav {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.QuoteNav span {
+  height: 20px;
+  width: 20px;
+  margin: 0 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.QuoteNav span::before {
+  content: '';
+  height: 6px;
+  width: 6px;
+  background: white;
+  border-radius: 50%;
+  transition: background-color .3s ease;
+}
+
+.QuoteNav span:hover::before {
+  background-color: #307F1A;
+}
+
+.QuoteNav span[data-quote="${active}"]::before {
+  background-color: #307F1A;
+}
+
+@media (min-width: 768px) {
+  .QuoteBox {
+    padding: 40px;
+    width: 600px;
+    height: 350px;
+  }
+}
+
+/******CallToAction******/
+
+.CallToAction {
+  margin: 50px 20px;
+}

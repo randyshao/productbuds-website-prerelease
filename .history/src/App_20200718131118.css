@@ -245,7 +245,6 @@ a {
 
 .SocialItem {
   margin: 0;
-  padding: 0 15px;
   transition: .2s
 }
 
@@ -740,9 +739,7 @@ a {
 }
 
 .Linkedin {
-  width: 20px;
-  padding-left: 10px;
-  padding-bottom: 5px;
+  width: 40px;
   transition: 0.2s;
 }
 

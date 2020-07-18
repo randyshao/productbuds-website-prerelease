@@ -40,7 +40,7 @@ const Testimonials = () => {
 
     return (
         <div className='Testimonials'>
-            <img src='../../../assets/images/team/randy.jpg' />
+            <img src={currentQuote.image} />
             <div className='QuoteBox'>
                 <p className='QuotePadding'>{currentQuote.quote}</p>
                 <h3>{currentQuote.person}</h3>

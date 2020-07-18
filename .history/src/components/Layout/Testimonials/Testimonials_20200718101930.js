@@ -23,7 +23,7 @@ const Testimonials = () => {
             quote: "Such a good feeling to finish Cracking the PM Interview and couldn't have done it without this channel holding me accountable. Thank you guys!"
         },
         3: {
-            image: {Joseph},
+            image: {Grace},
             person: "Joel Montano, PM Intern @ Microsoft",
             quote: "I was part of the first cohort of people joining and it's been a pleasure watching PB flourish. The thing that drew me in was that PB was a young tech community that wasn't gatekept by some SV tech bros, there were normal people like me :). I got the chance to meet with many of the founding team early & they were extremely welcoming and a pleasure to connect with. Being an Influencer™️ isn't exactly my vibe, but I managed to start writing a newsletter in part due to PB and it has created many opportunities for me. As I graduate and transition from intern to full-time, I'm super thankful to have met other peers in the industry who have similar goals and aspirations as I."
         },
@@ -40,7 +40,7 @@ const Testimonials = () => {
 
     return (
         <div className='Testimonials'>
-            <img src='../../../assets/images/team/randy.jpg' />
+            <img src={Randy} />
             <div className='QuoteBox'>
                 <p className='QuotePadding'>{currentQuote.quote}</p>
                 <h3>{currentQuote.person}</h3>

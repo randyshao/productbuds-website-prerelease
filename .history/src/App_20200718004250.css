@@ -360,7 +360,6 @@ a {
 
 .CompanyIntro {
   width: 100%;
-  padding-bottom: 40px;
 }
 
 .IntroImage {
@@ -396,12 +395,12 @@ a {
   }
   
   .AboutPB {
-    width: 60%;
+    width: 40%;
     text-align: left;
   }
 
   .IntroImage {
-    width: 40%;
+    width: 60%;
   }
 }
 
@@ -410,8 +409,8 @@ a {
 .CompanyStats {
   width: 100%;
   text-align: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: white;
 }
 

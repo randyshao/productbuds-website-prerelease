@@ -506,6 +506,7 @@ a {
 
 .Pill:hover a {
   color: white;
+  background-color: #307F1A;
 }
 
 /******AboutBanner******/

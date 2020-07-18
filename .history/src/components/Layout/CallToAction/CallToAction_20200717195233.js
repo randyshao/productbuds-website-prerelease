@@ -4,8 +4,8 @@ import ButtonPill from '../../UI/ButtonPill';
 const CallToAction = () => {
     return (
         <div className='CallToAction'>
-            <h2>Become a part of the Product Buds family</h2>
-            <ButtonPill link='bit.ly/joinproductbuds'>Join Our Community</ButtonPill>
+            <h2>Join our Community</h2>
+            <ButtonPill>Join Our Community</ButtonPill>
         </div>
     )
 }

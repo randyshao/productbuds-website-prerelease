@@ -5,7 +5,7 @@ const CallToAction = () => {
     return (
         <div className='CallToAction'>
             <h2>Become a part of the Product Buds family</h2>
-            <ButtonPill link='bit.ly/joinproductbuds'>Join Our Community</ButtonPill>
+            <ButtonPill link='bit.ly/joinproductbuds' color='white'>Join Our Community</ButtonPill>
         </div>
     )
 }

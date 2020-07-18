@@ -8,7 +8,7 @@ const NavLinks = () => {
         <ul className='NavLinks'>
             <NavItem link='/about'>About</NavItem>
             <NavItem link='/initiatives'>Initiatives</NavItem>
-            <ButtonPill link='bit.ly/joinproductbuds'>Join Our Community</ButtonPill>
+            <ButtonPill>Join Our Community</ButtonPill>
         </ul>
     )
 };

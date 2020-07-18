@@ -506,6 +506,8 @@ a {
 
 .Pill:hover a {
   color: white;
+  background-color: #307F1A;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.3);
 }
 
 /******AboutBanner******/

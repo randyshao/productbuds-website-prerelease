@@ -701,7 +701,6 @@ a {
 
 .PBTeam {
   margin: 50px auto;
-  padding: 0 20px;
 }
 
 
@@ -848,21 +847,18 @@ a {
 
 .CTABox {
   text-align: center;
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   display: flex;
   flex-direction: column;
-  background-color: #42AD24;
-  color: white;
-  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.3);
-  border-radius: 30px;
-  padding: 30px;
-  margin: 30px;
 }
 
 @media (min-width: 768px) {
   .CallToAction {
     flex-direction: row;
     justify-content: center;
+  }
+  .CTABox {
+    width: 400px;
   }
 }

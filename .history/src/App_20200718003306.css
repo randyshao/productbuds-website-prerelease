@@ -383,7 +383,8 @@ a {
 }
 
 .AboutPB {
-  padding: 50px 20px;
+  padding: 50px auto;
+  margin: 0 auto;
 }
 
 @media (min-width: 768px) { 
@@ -700,8 +701,7 @@ a {
 /******PB Team******/
 
 .PBTeam {
-  margin: 50px auto;
-  padding: 0 20px;
+  margin: 50px 20px;
 }
 
 

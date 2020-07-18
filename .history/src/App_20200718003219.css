@@ -700,8 +700,7 @@ a {
 /******PB Team******/
 
 .PBTeam {
-  margin: 50px auto;
-  padding: 0 20px;
+  margin: 50px 20px;
 }
 
 
@@ -856,8 +855,8 @@ a {
   color: white;
   box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.3);
   border-radius: 30px;
-  padding: 30px;
-  margin: 30px;
+  padding: 25px;
+  margin: 25px;
 }
 
 @media (min-width: 768px) {

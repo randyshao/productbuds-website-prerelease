@@ -10,7 +10,7 @@ const CallToAction = () => {
             </div>
             <div className='CTABox'>
                 <h2>Support the journey of Product Buds.</h2>
-                <ButtonPill link='https://airtable.com/shr8UL8byOna2YhhW'>Become A Sponsor</ButtonPill>
+                <ButtonPill link='bit.ly/joinproductbuds'>Become A Sponsor</ButtonPill>
             </div>
         </div>
     )

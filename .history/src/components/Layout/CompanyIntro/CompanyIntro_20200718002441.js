@@ -16,7 +16,7 @@ const CompanyIntro = () => {
                         and career backgrounds. In PB, members share Product Management (PM) knowledge, 
                         make meaningful connections, and grow in their goals together.
                     </p>
-                    <ButtonPill link='/about'>Meet the Team</ButtonPill>
+                    <ButtonPill link='/about'/>
                 </div>
                 <img className='IntroImage' src={IntroImage} alt="Product Buds Logo"/>
             </div>

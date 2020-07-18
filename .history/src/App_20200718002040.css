@@ -701,7 +701,6 @@ a {
 
 .PBTeam {
   margin: 50px auto;
-  padding: 0 20px;
 }
 
 
@@ -848,8 +847,8 @@ a {
 
 .CTABox {
   text-align: center;
-  width: 250px;
-  height: 250px;
+  width: 275px;
+  height: 275px;
   display: flex;
   flex-direction: column;
   background-color: #42AD24;

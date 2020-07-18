@@ -5,12 +5,13 @@ import Image from './Image';
 
 const Initiative = (props) => {
     return (
-        <div className="MainContent">
+        <div className="ImageTextBoxBackground">
             <div class='Initiative'>
                 <Textbox title={props.title}>{props.children}</Textbox>
                 <Image image={props.image}/>
             </div>
         </div>
+        
     )
 }
 

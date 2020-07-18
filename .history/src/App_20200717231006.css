@@ -641,7 +641,7 @@ a {
 @media (min-width: 768px) {
   .EventBlock {
     display: flex;
-    max-width: 1100px;
+    max-width: 1140px;
     align-items: center;
     justify-content: center;
     box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
@@ -657,15 +657,13 @@ a {
 /******Initiative******/
 
 .Initiative {
-  padding: 20px 40px 20px 40px;
-  margin-left: 20px;
-  margin-right: 20px;
+  padding: 40px 40px 40px 60px;
+  margin-left: 35px;
   background-color: #EAF8D3;
-  border-radius: 30px;
-  margin-bottom: 50px;
+  border-radius: 30px 0 0 30px;
+  margin-bottom: 225px;
+  position: relative;
   box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
-  display: flex;
-  flex-direction: column;
 }
 
 .Textbox {
@@ -676,23 +674,25 @@ a {
 .Image img {
   width: 200px;
   border-radius: 50%;
+  position: absolute;
+  left: 33%;
 }
 
 @media (min-width: 768px) {
   .Initiative {
-    margin-top: 120px;
+    width: 75%;
     margin-bottom: 120px;
-    flex-direction: row;
-    align-items: center;
   }
 
   .Image img {
+    bottom: 15%;
+    left: -150px;
     width: 300px;
-    padding: 20px 40px 20px 40px;
   }
   .Textbox {
     text-align: left;
-    padding: 20px 40px 20px 40px;
+    position: relative;
+    padding: 40px 40px 40px 140px;
   }
 
 }

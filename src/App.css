@@ -578,6 +578,12 @@ a {
   text-align: left;
 }
 
+.ValuesContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .TextImage {
   max-width: 300px;
   text-align: center;

@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import styled from "styled-components";
 import Randy from '../../../assets/images/team/randy.jpg'
 import Grace from '../../../assets/images/team/grace.jpg'
 import Henrika from '../../../assets/images/team/henrika.jpg'
@@ -38,22 +39,49 @@ const Testimonials = () => {
         setActive(event.target.getAttribute('data-quote'))
     }
 
+    const DotContainer = styled.div`
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    `;
+
+    const Dots = styled.span`
+        height: 20px;
+        width: 20px;
+        margin: 0 3px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+
+        '::before': {
+            content: '';
+            height: 6px;
+            width: 6px;
+            background-color: #A3E585;
+            border-radius: 50%;
+            transition: background-color .3s ease;
+        }
+    `;
+
+    
+
     return (
         <div className='Testimonials'>
-            <img src='../../../assets/images/team/randy.jpg' />
+            <img src={Randy} />
             <div className='QuoteBox'>
                 <p className='QuotePadding'>{currentQuote.quote}</p>
                 <h3>{currentQuote.person}</h3>
             </div>
-            <div className='QuoteNav'>
+            <DotContainer>
                 {Object.keys(quotes).map(index => (
-                    <span
-                    onClick={event => buttonClickHandler(event)}
-                    data-quote={index}
-                    key={index} 
+                    <Dots
+                        onClick={event => buttonClickHandler(event)}
+                        data-quote={index}
+                        key={index} 
                     />
-                ))}
-            </div>
+                    ))}
+            </DotContainer>
         </div>
     )
 }

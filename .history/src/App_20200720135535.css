@@ -759,7 +759,7 @@ a {
   box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.2);
   padding: 20px;
   left: 5%;
-  top: 20%;
+  top: 15%;
   box-sizing: border-box;
   border-radius: 10px;
   transition: all 0.3s ease-out;
@@ -767,8 +767,8 @@ a {
 
 @media (min-width: 576px) {
   .Modal {
-    width: 550px;
-    left: calc(50% - 275px);
+    max-width: 500px;
+    left: calc(50% - 250px);
   }
 }
 
@@ -784,6 +784,10 @@ a {
 
 .ProfileModal h3 {
   font-size: 16px;
+}
+
+.ProfileModal button {
+  background-color: #42AD24;
 }
 
 @media (min-width: 768px) {

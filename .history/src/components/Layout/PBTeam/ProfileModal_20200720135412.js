@@ -5,7 +5,7 @@ const ProfileModal = (props) => {
         <div className='ProfileModal'>
             <h2>{props.name}</h2>
             <p>{props.bio}</p>
-            <button className='Pill' onClick={props.close}>Close</button>
+            <button onClick={props.close}>Close</button>
         </div>
     )
 }

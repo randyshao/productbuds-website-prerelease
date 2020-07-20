@@ -19,7 +19,7 @@ const Profile = (props) => {
 
     return (
         <Auxiliary>
-            <Modal show={showModal} open={showModal} closed={closeModalHandler}>
+            <Modal show={showModal} open={showModal}>
                 <ProfileModal name={props.name} bio={props.bio} close={closeModalHandler}/>
             </Modal>
             <div className='Profile'>

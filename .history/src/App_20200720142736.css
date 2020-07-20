@@ -767,8 +767,8 @@ a {
 
 @media (min-width: 576px) {
   .Modal {
-    width: 550px;
-    left: calc(50% - 275px);
+    max-width: 600px;
+    left: calc(50% - 150px);
   }
 }
 

@@ -758,8 +758,8 @@ a {
   width: 90%;
   box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.2);
   padding: 20px;
-  left: 5%;
-  top: 20%;
+  left: 15%;
+  top: 15%;
   box-sizing: border-box;
   border-radius: 10px;
   transition: all 0.3s ease-out;
@@ -767,23 +767,15 @@ a {
 
 @media (min-width: 576px) {
   .Modal {
-    width: 550px;
-    left: calc(50% - 275px);
+    width: 500px;
+    left: calc(50% - 250px);
   }
 }
 
 .ProfileModal img {
-  width: 150px;
-  height: 150px;
+  width: 225px;
+  height: 225px;
   border-radius: 50%;
-}
-
-.ProfileModal h2 {
-  font-size: 20px;
-}
-
-.ProfileModal h3 {
-  font-size: 16px;
 }
 
 @media (min-width: 768px) {

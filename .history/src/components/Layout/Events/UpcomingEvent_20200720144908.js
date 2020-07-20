@@ -1,5 +1,5 @@
 import React from 'react';
-import EventBanner from '../../../assets/images/currentevent.JPG'
+import EventBanner from '../../../assets/images/projectjam.jpg'
 import ButtonPill from '../../UI/ButtonPill'
 
 const UpcomingEvent = () => {

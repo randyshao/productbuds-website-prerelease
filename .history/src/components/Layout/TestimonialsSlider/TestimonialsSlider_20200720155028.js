@@ -148,6 +148,7 @@ export default () => {
                 <h3>Joel Montano, PM Intern @ Microsoft</h3>
             </div>
         </SwiperSlide>
+      
     </Swiper>
     
       </div>

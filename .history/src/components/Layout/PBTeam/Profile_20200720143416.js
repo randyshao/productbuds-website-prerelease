@@ -22,8 +22,8 @@ const Profile = (props) => {
             <Modal show={showModal} open={showModal} closed={closeModalHandler}>
                 <ProfileModal name={props.name} bio={props.bio} close={closeModalHandler}/>
             </Modal>
-            <div className='Profile'>
-                <img className='Headshot' src={props.headshot} onClick={openModalHandler} />
+            <div className='Profile' onClick={openModalHandler}>
+                <img className='Headshot' src={props.headshot} />
                 <h2>{props.name}<span><a href={props.linkedin}><img className='Linkedin' src={Linkedin}/></a></span></h2>
                 <h3>{props.role}</h3>
             </div>

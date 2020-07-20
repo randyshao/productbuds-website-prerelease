@@ -650,9 +650,8 @@ a {
   }
 
   .UpcomingEvent img {
-    margin-top: 0;
     max-width: 750px;
-    padding-right: 40px;
+    padding-right: 40px
   }
 }
 

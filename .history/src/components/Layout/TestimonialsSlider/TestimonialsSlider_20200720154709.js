@@ -2,7 +2,7 @@ import styled from "styled-components";
 import Randy from '../../../assets/images/team/randy.jpg'
 import Grace from '../../../assets/images/team/grace.jpg'
 import Henrika from '../../../assets/images/team/henrika.jpg'
-import Joel from '../../../assets/images/joel.JPG'
+import Joseph from '../../../assets/images/team/joseph.jpg'
 import React, {useState} from 'react';
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 
@@ -128,28 +128,17 @@ export default () => {
             </div>
         </SwiperSlide>
         <SwiperSlide>
-            <div className='QuoteBox'>
+        <div className='QuoteBox'>
                 <img src={Grace}/>
                 <p className='QuotePadding'>"I just attended my first Product Buds book club meeting. We went over the first few chapters of Cracking the PM Interview and held discussions regarding the myths of Product Management as well as a few other intriguing topics. I would like to thank our moderators for organizing and facilitating our meeting. I am thankful for the opportunity to connect with like-minded individuals from a diverse set of backgrounds, each with their own unique experiences and stories.Looking forward to our next session! Till then!"</p>
                 <h3>Hassaan Arif Mustafa, Student @ University of Toronto Missisauga</h3>
             </div>
         </SwiperSlide>
-        <SwiperSlide>
-            <div className='QuoteBox'>
-                <img src={Henrika}/>
-                <p className='QuotePadding'>"Such a good feeling to finish Cracking the PM Interview and couldn't have done it without this channel holding me accountable. Thank you guys!"</p>
-                <h3>Natasha Goel, Student @ University of Illinois</h3>
-            </div>
-        </SwiperSlide>
-        <SwiperSlide>
-            <div className='QuoteBox'>
-                <img src={Joel}/>
-                <p className='QuotePadding'>"I was part of the first cohort of people joining and it's been a pleasure watching PB flourish. The thing that drew me in was that PB was a young tech community that wasn't gatekept by some SV tech bros, there were normal people like me :). I got the chance to meet with many of the founding team early & they were extremely welcoming and a pleasure to connect with. Being an Influencer™️ isn't exactly my vibe, but I managed to start writing a newsletter in part due to PB and it has created many opportunities for me. As I graduate and transition from intern to full-time, I'm super thankful to have met other peers in the industry who have similar goals and aspirations as I."</p>
-                <h3>Joel Montano, PM Intern @ Microsoft</h3>
-            </div>
-        </SwiperSlide>
+        <SwiperSlide>Slide 3</SwiperSlide>
+        <SwiperSlide>Slide 4</SwiperSlide>
+      
     </Swiper>
-    
+
       </div>
     
   );

@@ -635,8 +635,8 @@ a {
 }
 
 .UpcomingEvent img {
-  margin-top: 20px;
-  width: 95%;
+  width: 80%;
+  height: 300px;
   object-fit: cover;
 }
 
@@ -644,15 +644,14 @@ a {
   .EventBlock {
     display: flex;
     max-width: 1100px;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
   }
 
   .UpcomingEvent img {
-    margin-top: 0;
-    max-width: 750px;
-    padding-right: 40px;
+    height: 300px;
+    object-fit: cover;
   }
 }
 

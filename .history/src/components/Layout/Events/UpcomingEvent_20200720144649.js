@@ -1,6 +1,5 @@
 import React from 'react';
-import EventBanner from '../../../assets/images/currentevent.JPG'
-import ButtonPill from '../../UI/ButtonPill'
+import EventBanner from '../../../assets/images/projectjam.jpg'
 
 const UpcomingEvent = () => {
     return (
@@ -11,7 +10,7 @@ const UpcomingEvent = () => {
                     <h1>Resume Review Workshop</h1>
                     <h2></h2>
                     <h3>Saturday July 25th, 4-5PM PST</h3>
-                    <ButtonPill link='https://zmurl.com/pb-pm-resume-review'>Click here to register</ButtonPill>
+                    <h4><a href="https://zmurl.com/pb-pm-resume-review">Click here to register!</a></h4>
                 </div>
                 <div>
                     <img src={EventBanner} />

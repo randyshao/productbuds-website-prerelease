@@ -635,8 +635,8 @@ a {
 }
 
 .UpcomingEvent img {
-  margin-top: 20px;
-  width: 95%;
+  width: 80%;
+  height: 300px;
   object-fit: cover;
 }
 
@@ -650,9 +650,9 @@ a {
   }
 
   .UpcomingEvent img {
-    margin-top: 0;
-    max-width: 750px;
-    padding-right: 40px;
+    max-width: 550px;
+    height: 300px;
+    object-fit: cover;
   }
 }
 
@@ -801,16 +801,16 @@ a {
 
 .Testimonials {
   width: 100%;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   background-color: #f3f3f3;
   position: relative;
   overflow: hidden;
 }
 
-.QuoteBox img,
+.Quote img,
 .Testimonials img {
-  width: 200px;
+  width: 250px;
   border-radius: 50%;
 }
 
@@ -820,8 +820,8 @@ a {
 
 .QuoteBox {
   margin: 0 auto;
-  width: 90%;
-  padding-bottom: 50px;
+  width: 100%;
+  height: 350px;
 }
 
 .QuoteBox h3 {
@@ -836,7 +836,9 @@ a {
 
 @media (min-width: 768px) {
   .QuoteBox {
+    padding: 20px;
     width: 600px;
+    height: 350px;
   }
 }
 

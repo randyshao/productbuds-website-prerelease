@@ -144,10 +144,11 @@ export default () => {
         <SwiperSlide>
             <div className='QuoteBox'>
                 <img src={Joel}/>
-                <p className='QuotePadding'>"I was part of the first cohort of people joining and it's been a pleasure watching PB flourish. The thing that drew me in was that PB was a young tech community that wasn't gatekept by some SV tech bros, there were normal people like me :). I got the chance to meet with many of the founding team early & they were extremely welcoming and a pleasure to connect with. Being an Influencer™️ isn't exactly my vibe, but I managed to start writing a newsletter in part due to PB and it has created many opportunities for me. As I graduate and transition from intern to full-time, I'm super thankful to have met other peers in the industry who have similar goals and aspirations as I."</p>
+                <p className='QuotePadding'>"Such a good feeling to finish Cracking the PM Interview and couldn't have done it without this channel holding me accountable. Thank you guys!"</p>
                 <h3>Joel Montano, PM Intern @ Microsoft</h3>
             </div>
         </SwiperSlide>
+      
     </Swiper>
     
       </div>

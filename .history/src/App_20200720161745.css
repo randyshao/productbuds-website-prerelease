@@ -635,7 +635,6 @@ a {
 }
 
 .UpcomingEvent img {
-  margin-top: 20px;
   width: 95%;
   object-fit: cover;
 }
@@ -650,7 +649,6 @@ a {
   }
 
   .UpcomingEvent img {
-    margin-top: 0;
     max-width: 750px;
     padding-right: 40px;
   }

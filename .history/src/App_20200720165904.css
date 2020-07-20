@@ -852,8 +852,8 @@ a {
 
 .CTABox {
   text-align: center;
-  width: 275px;
-  height: 275px;
+  width: 250px;
+  height: 250px;
   display: flex;
   flex-direction: column;
   background-color: #42AD24;

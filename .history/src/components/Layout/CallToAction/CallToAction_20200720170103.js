@@ -5,12 +5,12 @@ const CallToAction = () => {
     return (
         <div className='CallToAction'>
             <div className='CTABox'>
-                <h2>Join the Product Buds Slack Community.</h2>
+                <h2>Join the Product Buds Slack community.</h2>
                 <ButtonPill link='http://bit.ly/joinproductbuds'>Join Our Community</ButtonPill>
             </div>
             <div className='CTABox'>
-                <h2>Support the Product Buds Mission.</h2>
-                <ButtonPill link='https://airtable.com/shr8UL8byOna2YhhW'>Become A Partner</ButtonPill>
+                <h2>Support the Product Buds mission.</h2>
+                <ButtonPill link='https://airtable.com/shr8UL8byOna2YhhW'>Become A Sponsor</ButtonPill>
             </div>
         </div>
     )

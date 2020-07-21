@@ -3,7 +3,6 @@ import Randy from '../../../assets/images/team/randy.jpg'
 import Grace from '../../../assets/images/team/grace.jpg'
 import Henrika from '../../../assets/images/team/henrika.jpg'
 import Joel from '../../../assets/images/joel.JPG'
-import Janine from '../../../assets/images/janine.jpg'
 import Rommy from '../../../assets/images/rommy.jpg'
 import Natasha from '../../../assets/images/natasha.jpg'
 import Hassaan from '../../../assets/images/hassaan.jpg'
@@ -140,7 +139,7 @@ export default () => {
         </SwiperSlide>
         <SwiperSlide>
             <div className='QuoteBox'>
-                <img src={Janine}/>
+                <img src={Hassaan}/>
                 <p className='QuotePadding'>I came across PB in the midst of the pandemic. Prior to joining PB, I've only heard of product management through colleagues and friends, but I didn't exactly knew if this field is something I can potentially embark a career on. Hence, I joined PB with the intention of simply yearning to learn from individuals across diverse industries.
 In just a span of one month, I've developed an appreciation and respect for individuals who are currently in product management and more so for individuals who are currently breaking into the field. I'm truly grateful for all the initiatives PB has launched - from book clubs, to workshops, to speaker events, and much more! I'm also a huge advocate of applying theory to practice. In fact, I was able to prototype my first product after breaking into product management, attending all PB events, and continuously networking with other PB members. I'm proud to say that I have a perfect attendance of all PB events. :v::skin-tone-2:
 I see myself sprouting, growing, and flourishing with other PB members; and I hope you are too!</p>

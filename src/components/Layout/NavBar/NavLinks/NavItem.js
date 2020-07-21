@@ -1,9 +1,20 @@
 import React from 'react';
+import {NavLink} from 'react-router-dom';
 
 const NavItem = (props) => {
+
+    let attachedClasses = 'active';
+
+    if (props.active) {
+        attachedClasses = ['SideDrawer', 'Open']
+    }
+
     return (
         <li className='NavItem'>
-            <a href={props.link}>{props.children}</a>
+            <NavLink 
+                to={props.link}
+                exact={props.exact}
+                activeClassName='active'>{props.children}</NavLink>
         </li>
     )
 }

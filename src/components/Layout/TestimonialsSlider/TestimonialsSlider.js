@@ -6,6 +6,7 @@ import Joel from '../../../assets/images/joel.JPG'
 import Janine from '../../../assets/images/janine.jpg'
 import Rommy from '../../../assets/images/rommy.jpg'
 import Natasha from '../../../assets/images/natasha.jpg'
+import Shar from '../../../assets/images/shar.jpg'
 import Hassaan from '../../../assets/images/hassaan.jpg'
 import React, {useState} from 'react';
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
@@ -156,11 +157,19 @@ I see myself sprouting, growing, and flourishing with other PB members; and I ho
         </SwiperSlide>
         <SwiperSlide>
             <div className='QuoteBox'>
+                <img src={Shar}/>
+                <p className='QuotePadding'>"As an aspiring PM, it can be very intimidating to learn a lot of things and to see others accomplish so much. When I joined Product Buds, that stress went away. The community has been engaging, supportive, and it never felt like a competition. We were all eager to help each other to be the best we can be - and that’s what it takes to develop great Product Leaders"</p>
+                <h3>Sharmaine Aguilar, Business Analyst @ First Page Sage</h3>
+            </div>
+        </SwiperSlide>
+        <SwiperSlide>
+            <div className='QuoteBox'>
                 <img src={Joel}/>
                 <p className='QuotePadding'>"I was part of the first cohort of people joining and it's been a pleasure watching PB flourish. The thing that drew me in was that PB was a young tech community that wasn't gatekept by some SV tech bros, there were normal people like me :). I got the chance to meet with many of the founding team early & they were extremely welcoming and a pleasure to connect with. Being an Influencer™️ isn't exactly my vibe, but I managed to start writing a newsletter in part due to PB and it has created many opportunities for me. As I graduate and transition from intern to full-time, I'm super thankful to have met other peers in the industry who have similar goals and aspirations as I."</p>
                 <h3>Joel Montano, PM Intern @ Microsoft</h3>
             </div>
         </SwiperSlide>
+        
     </Swiper>
     
       </div>

@@ -98,12 +98,14 @@ a {
   width: 100%;
   box-sizing: border-box;
   display: block;
+  transition: .1s;
 }
 
 .NavItem a:hover,
 .NavItem a:active
 .NavItem a.active {
   border-bottom: 4px solid #307F1A;
+  border-radius: 4px;
 }
 
 .SideDrawer {

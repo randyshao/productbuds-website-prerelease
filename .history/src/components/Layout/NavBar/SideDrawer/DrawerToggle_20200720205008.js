@@ -5,7 +5,7 @@ import Toggle from '../../../../assets/images/drawertoggle.svg';
 const DrawerToggle = (props) => {
     return ( 
         <div className='DrawerToggle' onClick={props.clicked}>
-            <img style={{marginBottom: '10px'}} src={Toggle} />
+            <img style={{paddingBottom: '5px'}} src={Toggle} />
         </div> 
     )
 }

@@ -537,7 +537,7 @@ a {
   width: 100%;
   color: #307F1A;
   padding-top: 40px;
-  padding-bottom: 60px;
+  padding-bottom: 80px;
   text-align: left;
   display: flex;
   flex-direction: column;
@@ -545,7 +545,7 @@ a {
 }
 
 .SmallHeader {
-  padding-top: 20px;
+  padding-top: 50px;
 }
 
 .BannerHeadline {

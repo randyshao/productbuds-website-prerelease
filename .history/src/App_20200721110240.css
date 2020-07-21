@@ -529,15 +529,7 @@ a {
 .Pill:focus {
   outline: 0
 }
-
-/******AboutBanner******/
-
-.TextBanner {
-  background-color: white;
-  width: 100%;
-  color: #307F1A;
-  padding-top: 40px;
-  padding-bottom: 60px;
+60px;
   text-align: left;
   display: flex;
   flex-direction: column;

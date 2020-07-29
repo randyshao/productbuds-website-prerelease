@@ -15,8 +15,8 @@ const UpcomingEvent = () => {
             Click here to register
           </ButtonPill>
         </div>
-        <div>
-          <img style={{ paddingLeft: '40px' }} src={EventBanner} />
+        <div className='EventBanner'>
+          <img src={EventBanner} />
         </div>
       </div>
     </div>

@@ -1,6 +1,7 @@
 import React from 'react';
 import Person from './Person';
 import Sponsor from './Sponsor';
+import Finalists from '../DemoDay/Finalists';
 import Jonathan from '../../../assets/images/team/jonathan.jpg';
 import Clement from '../../../assets/images/team/clement.png';
 import Jerry from '../../../assets/images/team/jerry.jpg';
@@ -15,6 +16,7 @@ import RocketBlocks from '../../../assets/images/logos/rocketblocks.png';
 import NoDegree from '../../../assets/images/logos/nodegree.jpg';
 import CognityLabs from '../../../assets/images/logos/cognitylabs.png';
 import Auxiliary from '../../../hoc/Auxiliary';
+import ButtonPill from '../../UI/ButtonPill';
 
 const PeopleContainers = (props) => {
   const speakerList = [
@@ -102,18 +104,7 @@ const PeopleContainers = (props) => {
 
   return (
     <Auxiliary>
-      <div className='MainContent'>
-        <h2 className='Block'>Speakers</h2>
-        <div className='ProfilesContainer'>
-          {speakerList.map((detail) => (
-            <Person
-              name={detail.name}
-              role={detail.role}
-              headshot={detail.headshot}
-              linkedin={detail.linkedin}
-            />
-          ))}
-        </div>
+      <div className='MainContent PeoplesContainer'>
         <h2 style={{ paddingTop: '40px' }} className='Block'>
           Judges
         </h2>
@@ -127,6 +118,18 @@ const PeopleContainers = (props) => {
             />
           ))}
         </div>
+        <h2 className='Block'>Speakers</h2>
+        <div className='ProfilesContainer'>
+          {speakerList.map((detail) => (
+            <Person
+              name={detail.name}
+              role={detail.role}
+              headshot={detail.headshot}
+              linkedin={detail.linkedin}
+            />
+          ))}
+        </div>
+        <Finalists />
         <h2 style={{ paddingTop: '40px' }} className='Block'>
           Sponsors
         </h2>
@@ -139,6 +142,9 @@ const PeopleContainers = (props) => {
             />
           ))}
         </div>
+        <ButtonPill link='https://zmurl.com/pbpjdemoday'>
+          Click here to register
+        </ButtonPill>
       </div>
     </Auxiliary>
   );

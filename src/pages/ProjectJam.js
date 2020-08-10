@@ -12,7 +12,6 @@ const ProjectJam = () => {
       <CentredBanner />
       <ProjectJamDescription />
       <DemoDay />
-      <Finalists />
       <PeopleContainers />
     </Auxiliary>
   );

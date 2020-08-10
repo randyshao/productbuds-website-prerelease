@@ -859,13 +859,15 @@ a {
   padding-bottom: 50px;
 }
 
+.PeoplesContainer {
+  padding-bottom: 50px;
+}
+
 .Finalists {
   padding: 20px 40px 20px 40px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin: 50px 20px;
   background-color: #c9efae;
   border-radius: 30px;
-  margin-bottom: 50px;
   box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
   display: flex;
   flex-direction: column;

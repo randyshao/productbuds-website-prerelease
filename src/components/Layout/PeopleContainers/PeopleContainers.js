@@ -22,16 +22,19 @@ const PeopleContainers = (props) => {
       name: 'Jonathan Javier',
       headshot: Jonathan,
       role: 'Co-Founder and CEO @ Wonsulting',
+      linkedin: 'https://linkedin.com/in/jonathanmjavier',
     },
     {
       name: 'Clement Kao',
       headshot: Clement,
       role: 'Co-Founder @ PM HQ',
+      linkedin: 'https://linkedin.com/in/jehakjerrylee',
     },
     {
       name: 'Jerry Lee',
       headshot: Jerry,
       role: 'COO @ Wonsulting',
+      linkedin: 'https://linkedin.com/in/clement-kao',
     },
   ];
 
@@ -40,31 +43,37 @@ const PeopleContainers = (props) => {
       name: 'Kenton Kivestu',
       headshot: Kenton,
       role: 'Founder and CEO @ RocketBlocks',
+      linkedin: 'https://linkedin.com/in/kivestu',
     },
     {
       name: 'Christine Cho',
       headshot: Christine,
       role: 'Product Manager @ Linkedin',
+      linkedin: 'https://linkedin.com/in/christineecho',
     },
     {
       name: 'Emma Albert',
       headshot: Emma,
       role: 'Sr. Product Manager @ Workday',
+      linkedin: 'https://linkedin.com/in/emmaalbert',
     },
     {
       name: 'Kartik Sundar',
       headshot: Kartik,
       role: 'Director of Product @ Salesforce',
+      linkedin: 'https://linkedin.com/in/sundarkartik',
     },
     {
       name: 'Jon Morgan',
       headshot: Jon,
       role: 'Product Manager @ Google',
+      linkedin: 'https://linkedin.com/in/jonmorganpm',
     },
     {
       name: 'Cheryl Kwan',
       headshot: Cheryl,
       role: 'Product Manager @ PlayStation',
+      linkedin: 'https://linkedin.com/in/cherylhlkwan',
     },
   ];
 
@@ -72,18 +81,22 @@ const PeopleContainers = (props) => {
     {
       logo: Wonsulting,
       company: 'Wonsulting',
+      link: 'https://www.wonsulting.com/',
     },
     {
       logo: RocketBlocks,
       company: 'Wonsulting',
+      link: 'https://www.rocketblocks.me/',
     },
     {
       logo: NoDegree,
       company: 'Wonsulting',
+      link: 'https://www.nodegree.com/',
     },
     {
       logo: CognityLabs,
       company: 'Wonsulting',
+      link: 'https://www.cognitylabs.com/',
     },
   ];
 
@@ -97,6 +110,7 @@ const PeopleContainers = (props) => {
               name={detail.name}
               role={detail.role}
               headshot={detail.headshot}
+              linkedin={detail.linkedin}
             />
           ))}
         </div>
@@ -109,6 +123,7 @@ const PeopleContainers = (props) => {
               name={detail.name}
               role={detail.role}
               headshot={detail.headshot}
+              linkedin={detail.linkedin}
             />
           ))}
         </div>
@@ -117,7 +132,11 @@ const PeopleContainers = (props) => {
         </h2>
         <div className='ProfilesContainer'>
           {sponsorList.map((detail) => (
-            <Sponsor logo={detail.logo} company={detail.company} />
+            <Sponsor
+              logo={detail.logo}
+              company={detail.company}
+              link={detail.link}
+            />
           ))}
         </div>
       </div>

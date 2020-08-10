@@ -8,10 +8,10 @@ const UpcomingEvent = () => {
       <h1>Our Upcoming Event!</h1>
       <div className='EventBlock'>
         <div>
-          <h1>Case Studies Workshop</h1>
+          <h1>Project Jam Demo Day</h1>
           <h2></h2>
-          <h3>Saturday August 1st, 11AM PST</h3>
-          <ButtonPill link='https://zmurl.com/case-studies'>
+          <h3>Saturday August 15th, 9:30AM PST</h3>
+          <ButtonPill link='https://zmurl.com/pbpjdemoday' target='_blank'>
             Click here to register
           </ButtonPill>
         </div>

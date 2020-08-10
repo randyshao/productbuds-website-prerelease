@@ -156,25 +156,25 @@ a {
   background-color: #307f1a;
 }
 
-@media (max-width: 559px) {
+@media (max-width: 899px) {
   .DesktopOnly {
     display: none;
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 559px) {
   .DesktopOnlyMedium {
     display: none;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 560px) {
   .SingleLogo {
     display: none;
   }
 }
 
-@media (min-width: 560px) {
+@media (min-width: 900px) {
   .SideDrawer {
     display: none;
   }
@@ -206,7 +206,7 @@ a {
   }
 }
 
-@media (min-width: 560px) {
+@media (min-width: 900px) {
   .DrawerToggle {
     display: none;
   }

@@ -34,7 +34,7 @@ const Profile = (props) => {
         <h2>
           {props.name}
           <span>
-            <a href={props.linkedin}>
+            <a href={props.linkedin} target='_blank'>
               <img
                 className='Linkedin'
                 src={Linkedin}

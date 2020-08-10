@@ -5,7 +5,9 @@ const Person = (props) => {
   return (
     <Auxiliary>
       <div className='Profile'>
-        <img className='Headshot' src={props.headshot} alt={props.name} />
+        <a href={props.linkedin} target='_blank'>
+          <img className='Headshot' src={props.headshot} alt={props.name} />
+        </a>
         <h2>{props.name}</h2>
         <h3>{props.role}</h3>
       </div>

@@ -715,6 +715,10 @@ a {
   align-items: center;
 }
 
+.Block {
+  display: block;
+}
+
 .Profile h2 {
   color: #1b4c0f;
   font-size: 26px;
@@ -830,6 +834,55 @@ a {
   .QuoteBox {
     width: 600px;
   }
+}
+
+/******Centred Banner******/
+
+.CentredBanner {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: #307f1a;
+  background-color: white;
+}
+
+.CentredBanner h2 {
+  font-size: 26px;
+  color: #42ad24;
+}
+
+.CentredBanner h2 {
+  font-size: 26px;
+  color: #42ad24;
+}
+
+.DemoDay {
+  padding-bottom: 50px;
+}
+
+.Finalists {
+  padding: 20px 40px 20px 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #c9efae;
+  border-radius: 30px;
+  margin-bottom: 50px;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+}
+
+.Sponsor {
+  margin: 50px 35px;
+}
+
+.Sponsor img {
+  width: 200px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.Sponsor img:hover {
+  transform: scale(1.1);
 }
 
 /******CallToAction******/

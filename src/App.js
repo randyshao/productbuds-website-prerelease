@@ -6,6 +6,7 @@ import Layout from './components/Layout/Layout';
 import Home from './pages/Home';
 import About from './pages/About';
 import Initiatives from './pages/Initiatives';
+import ProjectJam from './pages/ProjectJam';
 
 function App() {
   useEffect(() => {
@@ -20,6 +21,7 @@ function App() {
           <Route exact path='/' component={Home} />
           <Route exact path='/about' component={About} />
           <Route exact path='/initiatives' component={Initiatives} />
+          <Route exact path='/projectjam' component={ProjectJam} />
         </Switch>
       </Layout>
     </div>

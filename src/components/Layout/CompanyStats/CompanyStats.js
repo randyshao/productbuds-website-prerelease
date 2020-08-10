@@ -4,7 +4,7 @@ import StatBox from './StatBox';
 const CompanyStats = () => {
   const stats = [
     { number: '2000+', platform: 'members in our Slack community' },
-    { number: '3700+', platform: 'followers on Linkedin' },
+    { number: '4000+', platform: 'followers on Linkedin' },
     { number: '1000+', platform: 'event attendees' },
   ];
 
